@@ -1,8 +1,6 @@
-“””
 TCL Hospitality Market Intelligence Monitor — Production v3
 Markets: MEA (UAE, Saudi Arabia, Turkey) | LATAM (Brazil, Colombia, Peru, Panama, Chile)
 Output:  HTML email digest + Markdown attachment for NotebookLM
-“””
 
 import os, json, smtplib, datetime, time, random
 from email.mime.multipart import MIMEMultipart

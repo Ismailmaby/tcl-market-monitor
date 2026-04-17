@@ -1,5 +1,4 @@
-Note
-“””
+
 
 import os, json, smtplib, datetime, time, random
 from email.mime.multipart import MIMEMultipart

@@ -31,6 +31,7 @@ jobs:
           GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
           RECIPIENT: ${{ secrets.RECIPIENT }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          ANTHROPIC_KEY: ${{ secrets.ANTHROPIC_KEY }}
         run: python monitor.py
 
       - name: Save dedup list back to repo

@@ -1,55 +1,76 @@
-import os, json, smtplib, datetime, time, random
+import os, json, smtplib, datetime, urllib.request
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from duckduckgo_search import DDGS
-from duckduckgo_search.exceptions import RatelimitException
 
-GMAIL_USER   = os.environ["GMAIL_USER"]
-GMAIL_PASS   = os.environ["GMAIL_PASS"]
-RECIPIENT    = os.environ.get("RECIPIENT", GMAIL_USER)
-MAX_RESULTS  = 8
-MAX_AGE_DAYS = 2
-SEEN_FILE    = "seen_urls.json"
+GMAIL_USER    = os.environ["GMAIL_USER"]
+GMAIL_PASS    = os.environ["GMAIL_PASS"]
+RECIPIENT     = os.environ.get("RECIPIENT", GMAIL_USER)
+ANTHROPIC_KEY = os.environ["ANTHROPIC_KEY"]
+SEEN_FILE     = "seen_urls.json"
 
-QUERIES = [
-    "hotel hospitality Marriott Hilton Accor opening 2026",
-    "Dubai UAE Saudi Arabia hotel construction hospitality",
-    "Brazil hotel IPTV hospitality hotelaria Brasil",
-    "LATAM Colombia Peru Chile hotel hospitality Wyndham IHG",
-    "Samsung LYNK LG ProCentric hotel TV hospitality display",
-    "hotel in-room entertainment IPTV middleware digital signage",
-    "Turkey hotel hospitality Marriott otel konaklama 2026",
-    "NEOM Red Sea Vision 2030 hotel resort hospitality",
+PROMPT = """You are a market intelligence researcher for TCL, a hospitality TV and commercial display company.
+
+Search for the latest news from the past 48 hours on these topics:
+
+1. Hotel openings and development: UAE, Dubai, Saudi Arabia, NEOM, Red Sea, Turkey, Brazil, Colombia, Peru, Panama, Chile
+2. Hotel chains: Marriott, Hilton, Accor, IHG, Wyndham, Radisson, Hyatt in MEA and LATAM regions
+3. Hospitality TV and IPTV: Samsung LYNK, LG ProCentric, Philips hospitality, hotel in-room entertainment, IPTV middleware, Nonius, Acentic, SONIFI
+4. Commercial display and digital signage in hotels and hospitality
+5. Hotel technology: CMS, Android TV hotel system, property management, hospitality tech
+6. Hotel construction pipeline and investment in Middle East Africa and Latin America
+7. AV technology for hospitality: display systems, system integrators, hotel AV tenders
+
+Return ONLY a JSON array with this exact format, no other text:
+[
+  {
+    "title": "article title",
+    "source": "publication name",
+    "date": "YYYY-MM-DD",
+    "url": "https://...",
+    "summary": "2-3 sentence summary",
+    "category": "one of: Hotel Development | Hotel Operators | Hospitality TV & IPTV | Commercial Display | Competitive Intelligence | Industry Events"
+  }
 ]
 
-MUST_HAVE = [
-    "hotel", "hospitality", "resort", "hotelaria", "hoteleiro",
-    "otel", "iptv", "in-room", "display", "signage",
-    "marriott", "hilton", "accor", "wyndham", "ihg", "radisson",
-    "hyatt", "novotel", "ibis", "sheraton", "intercontinental",
-    "samsung lynk", "lg procentric", "philips hospitality",
-    "nonius", "acentic", "sonifi", "enseo",
-    "hotel tv", "hotel technology", "hotel construction",
-    "hotel opening", "hotel development", "hotel investment",
-    "digital signage", "commercial display", "guestroom",
-    "hitec", "set-top", "middleware",
-]
+Find at least 15 articles. Only include genuinely relevant hospitality/AV industry articles. No celebrity news, sports, politics."""
 
-MUST_NOT = [
-    "world cup", "fifa", "nfl", "nba", "celebrity", "time 100",
-    "concert", "music festival", "oscar", "grammy",
-    "cryptocurrency", "bitcoin", "stock market",
-    "crime", "murder", "accident", "weather forecast",
-    "election", "senator", "congress", "taylor swift",
-    "morgan wallen", "college football", "box office",
-]
+def call_anthropic(prompt, api_key):
+    payload = json.dumps({
+        "model": "claude-sonnet-4-20250514",
+        "max_tokens": 4000,
+        "tools": [{"type": "web_search_20250305", "name": "web_search"}],
+        "messages": [{"role": "user", "content": prompt}]
+    }).encode()
 
-def is_relevant(title, body):
-    text = (title + " " + (body or "")).lower()
-    if any(bad in text for bad in MUST_NOT):
-        if not any(kw in text for kw in ["hotel", "hospitality", "hotelaria", "resort"]):
-            return False
-    return any(kw in text for kw in MUST_HAVE)
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+            "anthropic-beta": "web-search-2025-03-05"
+        }
+    )
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return json.loads(resp.read().decode())
+
+def extract_articles(response):
+    text = ""
+    for block in response.get("content", []):
+        if block.get("type") == "text":
+            text += block.get("text", "")
+    start = text.find("[")
+    end = text.rfind("]") + 1
+    if start == -1 or end == 0:
+        print("  [WARN] No JSON array found in response")
+        return []
+    try:
+        articles = json.loads(text[start:end])
+        return articles if isinstance(articles, list) else []
+    except Exception as e:
+        print("  [WARN] JSON parse error: " + str(e)[:60])
+        return []
 
 def load_seen_urls():
     if os.path.exists(SEEN_FILE):
@@ -64,80 +85,46 @@ def save_seen_urls(seen):
     with open(SEEN_FILE, "w") as f:
         json.dump(seen, f, indent=2)
 
-def fetch_news(queries, max_results, max_age_days, seen_urls):
-    articles = []
-    seen_urls_run = set()
-    cutoff = datetime.datetime.now() - datetime.timedelta(days=max_age_days)
-
-    with DDGS() as ddgs:
-        for query in queries:
-            time.sleep(6 + random.uniform(0, 3))
-            for attempt in range(3):
-                try:
-                    raw = list(ddgs.news(query, max_results=max_results, timelimit="w"))
-                    break
-                except RatelimitException:
-                    wait = 20 + attempt * 15
-                    print("  [RATELIMIT] waiting " + str(wait) + "s")
-                    time.sleep(wait)
-                    raw = []
-                except Exception as e:
-                    print("  [WARN] " + str(e)[:60])
-                    raw = []
-                    break
-
-            kept = 0
-            for a in raw:
-                url = a.get("url", "")
-                if not url or url in seen_urls or url in seen_urls_run:
-                    continue
-                title = a.get("title", "")
-                body  = a.get("body", "")
-                if not is_relevant(title, body):
-                    continue
-                seen_urls_run.add(url)
-                pub = a.get("date", "")
-                try:
-                    pd = datetime.datetime.fromisoformat(pub.replace("Z", "+00:00")).replace(tzinfo=None)
-                    if pd < cutoff:
-                        continue
-                except Exception:
-                    pass
-                articles.append({
-                    "title":  title,
-                    "source": a.get("source", "Unknown"),
-                    "date":   pub[:10] if pub else "N/A",
-                    "url":    url,
-                    "body":   body,
-                })
-                kept += 1
-
-            print("  Query [" + query[:45] + "]: " + str(kept) + " kept")
-
-    return articles, {a["url"]: datetime.datetime.now().isoformat() for a in articles}
-
 def build_markdown(articles, run_date):
     lines = [
         "# TCL Hospitality Market Intelligence - Daily Briefing",
         "Date: " + run_date,
-        "Total new articles: " + str(len(articles)),
+        "Total articles: " + str(len(articles)),
         "Markets: UAE, Saudi Arabia, Turkey, Brazil, Colombia, Peru, Panama, Chile",
         "",
         "---",
         "",
     ]
+    categories = {}
     for a in articles:
-        lines.append("### " + a["title"])
-        lines.append("Source: " + a["source"] + " | Date: " + a["date"])
-        lines.append(a["url"] + "\n")
-        if a["body"]:
-            lines.append(a["body"][:600] + "\n")
+        cat = a.get("category", "General")
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(a)
+
+    for cat, arts in categories.items():
+        lines.append("## " + cat)
+        for a in arts:
+            lines.append("### " + a.get("title", ""))
+            lines.append("Source: " + a.get("source", "") + " | Date: " + a.get("date", ""))
+            lines.append(a.get("url", "") + "\n")
+            if a.get("summary"):
+                lines.append(a["summary"] + "\n")
+        lines.append("")
+
     lines.append("---")
     lines.append("Generated by TCL Market Monitor - " + run_date)
     return "\n".join(lines)
 
 def build_html_email(articles, run_date):
     total = len(articles)
+    categories = {}
+    for a in articles:
+        cat = a.get("category", "General")
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(a)
+
     html = (
         "<!DOCTYPE html><html><head><meta charset='utf-8'></head>"
         "<body style='margin:0;padding:20px;background:#eef1f5;font-family:Arial,sans-serif;'>"
@@ -147,33 +134,32 @@ def build_html_email(articles, run_date):
         "<p style='color:#7eb8f7;margin:0;font-size:13px;'>Hospitality TV and Commercial Display - Daily Briefing</p>"
         "<div style='margin-top:16px;'>"
         "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;margin-right:8px;'>Date: " + run_date[:10] + "</span>"
-        "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;'>" + str(total) + " new articles</span>"
+        "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;margin-right:8px;'>" + str(total) + " articles</span>"
+        "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;'>" + str(len(categories)) + " categories</span>"
         "</div></div>"
         "<div style='background:#fff;padding:8px 32px 32px;border:1px solid #dde;border-top:none;border-radius:0 0 10px 10px;'>"
-        "<div style='padding-top:28px;'>"
-        "<h2 style='font-size:15px;font-weight:700;color:#0d1b2a;border-bottom:2px solid #e63946;padding-bottom:8px;margin:0 0 16px;'>Hospitality and AV Market News</h2>"
     )
 
-    if not articles:
-        html += "<p style='color:#ccc;font-style:italic;font-size:13px;'>No new relevant articles found today.</p>"
-    else:
-        for a in articles:
-            body = (a["body"][:280] + "...") if len(a["body"]) > 280 else a["body"]
+    for cat, arts in categories.items():
+        html += (
+            "<div style='padding-top:28px;'>"
+            "<h2 style='font-size:15px;font-weight:700;color:#0d1b2a;border-bottom:2px solid #e63946;padding-bottom:8px;margin:0 0 16px;'>" + cat + "</h2>"
+        )
+        for a in arts:
+            summary = a.get("summary", "")
             html += (
-                "<div style='margin-bottom:12px;padding:16px;background:#f8f9fa;"
-                "border-radius:8px;border-left:4px solid #e63946;'>"
-                "<a href='" + a["url"] + "' style='font-size:14px;font-weight:600;"
-                "color:#0d1b2a;text-decoration:none;display:block;'>" + a["title"] + "</a>"
+                "<div style='margin-bottom:12px;padding:16px;background:#f8f9fa;border-radius:8px;border-left:4px solid #e63946;'>"
+                "<a href='" + a.get("url", "#") + "' style='font-size:14px;font-weight:600;color:#0d1b2a;text-decoration:none;display:block;'>" + a.get("title", "") + "</a>"
                 "<div style='margin-top:6px;'>"
-                "<span style='font-size:11px;color:#e63946;font-weight:700;text-transform:uppercase;'>" + a["source"] + "</span>"
-                "<span style='font-size:11px;color:#999;margin-left:8px;'>" + a["date"] + "</span>"
+                "<span style='font-size:11px;color:#e63946;font-weight:700;text-transform:uppercase;'>" + a.get("source", "") + "</span>"
+                "<span style='font-size:11px;color:#999;margin-left:8px;'>" + a.get("date", "") + "</span>"
                 "</div>"
-                + ("<p style='font-size:13px;color:#555;margin:8px 0 0;line-height:1.55;'>" + body + "</p>" if body else "") +
+                + ("<p style='font-size:13px;color:#555;margin:8px 0 0;line-height:1.55;'>" + summary + "</p>" if summary else "") +
                 "</div>"
             )
+        html += "</div>"
 
     html += (
-        "</div>"
         "<div style='margin-top:36px;padding-top:20px;border-top:1px solid #eee;text-align:center;'>"
         "<p style='font-size:11px;color:#aaa;line-height:1.8;margin:0;'>"
         "TCL Global Engineering Business Center<br>"
@@ -209,17 +195,32 @@ def save_markdown(content, run_date):
 def main():
     run_date = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
     print("TCL Market Monitor - " + run_date)
+
     seen_urls = load_seen_urls()
     print("Dedup cache: " + str(len(seen_urls)) + " URLs")
-    articles, new_seen = fetch_news(QUERIES, MAX_RESULTS, MAX_AGE_DAYS, seen_urls)
-    print("Total relevant articles: " + str(len(articles)))
-    seen_urls.update(new_seen)
+
+    print("Calling Anthropic API with web search...")
+    try:
+        response = call_anthropic(PROMPT, ANTHROPIC_KEY)
+        articles = extract_articles(response)
+    except Exception as e:
+        print("ERROR: " + str(e))
+        articles = []
+
+    # Filter already seen URLs
+    new_articles = [a for a in articles if a.get("url", "") not in seen_urls]
+    print("Total articles: " + str(len(articles)) + " | New: " + str(len(new_articles)))
+
+    # Update seen URLs
+    for a in new_articles:
+        seen_urls[a.get("url", "")] = datetime.datetime.now().isoformat()
     save_seen_urls(seen_urls)
-    md   = build_markdown(articles, run_date)
-    html = build_html_email(articles, run_date)
+
+    md   = build_markdown(new_articles, run_date)
+    html = build_html_email(new_articles, run_date)
     save_markdown(md, run_date)
     send_email(html, md, run_date)
-    print("Done. " + str(len(new_seen)) + " new URLs cached.")
+    print("Done.")
 
 if __name__ == "__main__":
     main()

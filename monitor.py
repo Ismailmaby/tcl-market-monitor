@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 GMAIL_USER    = os.environ["GMAIL_USER"]
 GMAIL_PASS    = os.environ["GMAIL_PASS"]
 RECIPIENT     = os.environ.get("RECIPIENT", GMAIL_USER)
-ANTHROPIC_KEY = os.environ["ANTHROPIC_KEY"]
+ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 SEEN_FILE     = "seen_urls.json"
 
 PROMPT = """You are a market intelligence researcher for TCL, a hospitality TV and commercial display company.

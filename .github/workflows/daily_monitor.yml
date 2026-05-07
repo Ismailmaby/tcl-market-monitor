@@ -2,8 +2,18 @@ name: TCL Market Intelligence Monitor
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 0 * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
+    inputs:
+      session:
+        description: "Session type"
+        required: false
+        default: "morning"
+        type: choice
+        options:
+          - morning
+          - evening
 
 permissions:
   contents: write
@@ -30,23 +40,38 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Determine session
+        id: session
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "SESSION=${{ github.event.inputs.session }}" >> $GITHUB_ENV
+          else
+            HOUR=$(date -u +%H)
+            if [ "$HOUR" = "00" ]; then
+              echo "SESSION=morning" >> $GITHUB_ENV
+            else
+              echo "SESSION=evening" >> $GITHUB_ENV
+            fi
+          fi
+
       - name: Run market monitor
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
           RECIPIENT: ${{ secrets.RECIPIENT }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SESSION: ${{ env.SESSION }}
         run: python monitor.py
 
-      - name: Commit audio and RSS feed
+      - name: Commit audio and RSS
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add docs/ output/ || true
-          git diff --staged --quiet || git commit -m "chore: daily briefing $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "chore: ${{ env.SESSION }} briefing $(date +%Y-%m-%d)"
           git push
 
-      - name: Upload Markdown as artifact
+      - name: Upload Markdown artifact
         uses: actions/upload-artifact@v4
         with:
           name: market-intel-${{ github.run_id }}

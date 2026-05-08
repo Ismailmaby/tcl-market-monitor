@@ -60,7 +60,7 @@ jobs:
           RECIPIENT: ${{ secrets.RECIPIENT }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SESSION: ${{ env.SESSION }}
-        run: python monitor.py
+        run: python test_urls.py
 
       - name: Commit audio and RSS
         run: |

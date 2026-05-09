@@ -15,69 +15,69 @@
 ## MEA Hotel Market
 ### Wyndham Launches Vienna House & Dolce Branded Residences in Ras Al Khaimah
 Wyndham is betting on midscale branded residences at Al Marjan Island, RAK — a segment it calls a 'missed opportunity.' This signals accelerating hotel-adjacent development in RAK beyond the Wynn casino project, expanding the addressable pipeline for in-room technology.
-Action: Map Wyndham's RAK pipeline contacts. Vienna House and Dolce are mid-to-upscale flags — position TCL's hospitality TV range accordingly and reach out to the project development team before FF&E specs are locked.
+Action: Map Wyndham's RAK pipeline contacts. Vienna House and Dolce are mid-to-upscale flags — position TCL's hospitality TV range accordingly and reach out to Wyndham MEA procurement before FF&E specs are locked.
 
 ### Wynn Al Marjan Island Faces Supply-Chain Delay, UAE Fundamentals Remain Strong
-Wynn's flagship UAE property faces a 'modest delay' with no confirmed date. Supply-chain disruptions are the cited cause. Long-term UAE demand fundamentals remain intact, but near-term procurement timelines for this project are uncertain.
-Action: Don't deprioritize Wynn Al Marjan, but adjust expected close timing. Use the delay window to strengthen relationships with the procurement and AV/IT teams — they may be revisiting specs.
+Wynn's flagship UAE property faces a 'modest delay' with no confirmed date. Despite this, UAE long-term demand fundamentals are intact. Delay creates a window to engage procurement teams while timelines are fluid and decisions are still open.
+Action: Use the delay as a conversation opener with Wynn's project team — procurement windows often extend when construction slips. Confirm current FF&E and AV spec status for in-room entertainment.
 
-### Middle East Instability Reshaping Travel Flows — Meliá Flags Mixed Impact
-Meliá reports geopolitical instability hurt Q1 results in some MEA markets while boosting summer outlook in Spain and Caribbean. UAE and Saudi pipelines remain active but Turkey-adjacent markets may see softer near-term occupancy.
-Action: For Turkey calls today, acknowledge the demand headwind and pivot to long-term pipeline projects rather than urgency-based pitches. UAE and Saudi remain strong — prioritize those conversations.
+### Middle East Instability Redirecting Summer Travelers — Meliá Signals Mixed Regional Impact
+Meliá reports geopolitical instability hurt Q1 in some MEA markets while boosting summer outlook elsewhere. Turkey and UAE may benefit as safer perceived destinations, potentially accelerating hotel openings and refurbishments to capture diverted demand.
+Action: In calls to Turkey and UAE properties today, lead with the demand surge narrative — hotels investing in guest experience upgrades now are positioned to capture diverted summer traffic. Tie TCL's in-room tech to RevPAR uplift.
 
 
 ## LATAM Hotel Market
 ### GHL Hotels Expanding Legal & Development Frameworks Across 10 LATAM Countries
-GHL operates 60+ hotels across 10 Latin American countries and is actively building legal and operational infrastructure for further expansion, as recognized at ALIS CALA 2026. This signals continued pipeline growth in Colombia, Peru, and broader LATAM.
-Action: GHL is a high-priority account for Colombia and Peru. Engage procurement and project development contacts now — their expansion cadence suggests active FF&E decisions in the near term.
+GHL operates 60+ hotels across 10 Latin American countries and is actively building legal and operational infrastructure for further expansion, as recognized at ALIS CALA 2026. GHL is one of the most active mid-to-upscale developers in the region.
+Action: GHL is a priority account for Brazil, Colombia, Peru, and Chile. Use ALIS CALA momentum to request meetings with GHL's procurement and development teams — pipeline growth means active FF&E cycles.
 
-### Auberge Acquires Nine Tanzania Safari Properties — Luxury Segment Expanding in Africa
-Auberge's move into East African safari luxury signals appetite for high-end experiential hospitality beyond traditional hotel formats. While Tanzania is outside core LATAM focus, it reflects a broader luxury pipeline trend relevant to Brazil and Chile's premium resort segment.
-Action: Use Auberge's expansion narrative in conversations with luxury resort developers in Brazil and Chile — position TCL's premium hospitality TV line as aligned with the experiential luxury trend.
+### Geopolitical Uncertainty Creating New Tourism Opportunities for LATAM
+Industry analysts at Foro Hosteltur flagged that Middle East instability is opening new inbound tourism opportunities for alternative destinations. LATAM markets — particularly Brazil and Colombia — stand to benefit from redirected long-haul travel flows.
+Action: Frame TCL's hospitality TV offering around LATAM hotels preparing for increased international guest volumes. Properties upgrading to meet international standards are active procurement targets — prioritize 4- and 5-star pipeline accounts.
 
-### Geopolitical Uncertainty Creating New Tourism Opportunities — Madrid Forum Signals Optimism
-Spanish tourism officials at the XXI Foro Hosteltur see geopolitical disruption redirecting travel flows toward stable destinations. LATAM markets like Brazil, Colombia, and Chile stand to benefit as alternative luxury and leisure destinations.
-Action: In LATAM calls today, reference the inbound tourism growth narrative to reinforce urgency around hotel upgrades and new builds — operators preparing for increased demand need to finalize tech specs now.
+### Auberge Expands into Africa Safari — Luxury Segment Appetite Remains Strong
+Auberge's acquisition of nine Tanzania safari properties signals continued luxury hospitality expansion in emerging markets. While not LATAM-specific, it confirms that luxury operators are actively acquiring and refurbishing properties, driving FF&E and in-room tech cycles.
+Action: Monitor luxury brand expansion announcements for LATAM equivalents. Engage local luxury operators in Brazil and Chile who may be in similar acquisition or refurbishment phases — these are high-value TCL hospitality TV opportunities.
 
 
 ## Competitive Intelligence
 ### Wyndham Ships Native ChatGPT App Across 9,000+ Hotels
-Wyndham has deployed a native ChatGPT integration across its entire portfolio, making AI-powered guest interaction a brand standard. This raises the technology baseline expectation for in-room and guest-facing systems across all Wyndham flags globally, including MEA and LATAM properties.
-Action: When calling on Wyndham-flagged properties in UAE, Saudi, or LATAM, lead with TCL's smart TV and interactive guest experience capabilities — operators will be looking for in-room tech that complements their AI stack.
+Wyndham has deployed a native ChatGPT integration across its entire portfolio, making AI-powered guest interaction a brand standard. This raises the technology baseline guests expect and puts pressure on in-room hardware — including TVs — to support AI-driven content and services.
+Action: In Wyndham property calls (UAE, Saudi, Turkey, LATAM), position TCL's smart hospitality TVs as the display layer for AI guest services. Ask if their in-room screens are currently integrated with the ChatGPT rollout or if there's a gap to fill.
 
 ### Choice Hotels Launches Five AI Solutions Including CHARLIE Assistant and RAISE Rate Management
-Choice Hotels follows Wyndham with a five-product AI launch covering sales, group bookings, virtual assistance, and rate management. Mid-scale chains are rapidly standardizing AI — this compresses the window for hospitality TV vendors to differentiate on smart platform integration.
-Action: Prepare a clear TCL smart hospitality platform narrative for mid-scale chain conversations. Emphasize API compatibility and content management capabilities that complement, not compete with, their AI investments.
+Choice Hotels is aggressively deploying AI across operations and guest-facing services, one day after Wyndham's ChatGPT launch. The pace signals AI is now table-stakes for major flags, not a differentiator — independent and regional hotels will face pressure to follow.
+Action: Use the Choice/Wyndham AI wave as a market signal in calls to independent and regional hotel groups in MEA and LATAM. Position TCL's Android-based smart TVs as AI-ready infrastructure that future-proofs their in-room tech stack.
 
-### Canary Technologies Named Best Guest Experience Platform, Now in 20,000+ Hotels
-Canary's AI platform scale — 20,000+ hotels, 100+ countries, 100+ languages — makes it a de facto integration partner in many target accounts. Its dominance in guest messaging and upsell means in-room TV systems need to coexist or integrate with platforms like Canary.
-Action: Check whether target accounts in MEA and LATAM use Canary. If yes, position TCL's hospitality TV as a complementary screen-based touchpoint and explore whether a Canary integration story can be developed.
+### Canary Technologies Named Best Guest Experience Platform, Now in 20,000+ Hotels Across 100+ Countries
+Canary's rapid global scale — 20,000 hotels, 100+ countries, 100+ languages — makes it a likely integration partner or competitor touchpoint in any smart hospitality TV conversation. Hotels adopting Canary will want in-room screens that can surface its guest messaging and upsell tools.
+Action: Explore a TCL-Canary integration narrative for BD calls. If target hotels already use Canary, position TCL TVs as the ideal display endpoint for Canary's guest-facing workflows. If not, bundle the conversation around a complete guest-room digital experience.
 
 
 ## Hospitality Technology
-### Amadeus Launches Forward-Looking Occupancy Data Up to One Year Ahead
-Amadeus is using 2026 World Cup demand data to demonstrate predictive occupancy tools for hotels. Forward-looking demand visibility gives hotel operators more confidence to commit to capital expenditure — including in-room technology upgrades — well in advance.
-Action: Reference the 2026 World Cup demand signal in conversations with Brazilian hotel operators. Confirmed future demand is a strong justification for accelerating TV refresh cycles and smart room upgrades now.
+### Amadeus Launches Forward-Looking Occupancy Data, Uses 2026 World Cup as Demand Signal
+Amadeus now offers occupancy forecasting up to 12 months ahead, with 2026 World Cup data showing significant untapped revenue windows. For LATAM markets hosting World Cup activity, hotels will be investing in guest experience upgrades ahead of peak demand.
+Action: For Brazil and other World Cup host markets, use the 2026 demand surge as urgency in BD conversations — hotels need in-room tech upgrades completed well before the event. Identify properties in host cities and prioritize outreach now.
 
-### 53% of Travelers Trust AI Suggestions, But 66% Won't Let AI Book Directly
-AI is influencing discovery but humans still control the booking decision. This means hotels must optimize both AI visibility and the in-property experience — the room itself remains a critical trust-building touchpoint after AI-influenced booking.
-Action: Use this data point in pitches: the in-room experience is where AI-driven expectations get validated or broken. A premium TCL hospitality TV setup reinforces the quality signal that drove the booking.
+### Duve Research: 44.3% of Upsell Revenue Comes from Custom Services, 72% of Guest Messages Pre-Arrival
+Guest engagement is shifting heavily to pre-arrival digital touchpoints, and upsell is increasingly driven by personalized in-stay services. In-room TVs that can surface upsell content and integrate with pre-arrival messaging platforms are becoming revenue tools, not just entertainment screens.
+Action: Reframe TCL hospitality TV as a revenue-generating asset in today's calls — not a cost line. Lead with upsell and guest engagement capabilities, especially for properties already investing in digital guest journey platforms.
 
-### Duve Data: 44.3% of Upsell Purchases Are Custom Services, 72% of Guest Messages Pre-Arrival
-Most guest engagement and upsell revenue happens before the guest enters the room. However, in-room screens remain the primary post-arrival engagement surface — making TV content and interactivity critical for capturing the remaining upsell window.
-Action: Position TCL's interactive TV platform as the in-room continuation of the pre-arrival digital journey. Highlight content management and upsell display capabilities when speaking with revenue-focused hotel operators.
+### Independent Hotels Navigating AI Search Visibility — 53% of Travelers Trust AI Suggestions
+Over half of travelers now trust AI-generated hotel recommendations, but 66% won't let AI complete the booking. Independent hotels in MEA and LATAM are under pressure to optimize for AI discovery while maintaining direct booking channels — a tech investment cycle is underway.
+Action: Independent and boutique hotels investing in digital presence are also likely upgrading in-room tech to match brand positioning. Target independent hotel groups in UAE, Turkey, Colombia, and Chile who are modernizing their guest experience stack.
 
 
 ## BD Opportunities
-### Wyndham Branded Residences Pipeline in RAK — Early-Stage FF&E Window Open
-Vienna House and Dolce branded residences at Al Marjan Island are in early development. Branded residence projects typically have longer lead times but larger per-unit TV procurement volumes, and specs are still being defined.
-Action: Identify the project developer and FF&E consultant for the RAK Wyndham residences. Get TCL on the approved vendor list before specs are finalized — this is a time-sensitive early-stage opportunity.
+### Wyndham Dual Pipeline in RAK: Branded Residences + Wynn Delay Creates Procurement Window
+Two concurrent Wyndham-linked projects in Ras Al Khaimah — Vienna House/Dolce residences and the delayed Wynn property — mean procurement teams are actively managing timelines. Delays and new launches both create entry points for in-room technology conversations.
+Action: Priority call today: Wyndham MEA development and procurement contacts in UAE. Two active projects, fluid timelines, and a brand expanding into a new segment — this is an ideal moment to get TCL specified before FF&E is finalized.
 
-### Auberge Safari Expansion — Nine Tanzania Properties Entering Luxury Fit-Out Phase
-Auberge's acquisition of nine Tanzanian safari properties through Legendary Expeditions and Chem Chem Safari means multiple high-end properties will undergo brand alignment and potential technology upgrades. Luxury safari lodges are a niche but high-ASP hospitality TV segment.
-Action: Flag Auberge Safari as a longer-horizon MEA opportunity. Reach out to Auberge's procurement or asset management team to understand the refurbishment timeline and whether in-room AV specs are being revisited.
+### 2026 World Cup Demand Wave Approaching for LATAM Host Markets
+Amadeus data confirms hotels in World Cup host cities have a measurable, time-bound revenue opportunity in 2026. Properties that haven't upgraded in-room entertainment to meet international guest expectations are at risk of losing premium bookings to better-equipped competitors.
+Action: Build a targeted outreach list of 4- and 5-star hotels in Brazilian World Cup host cities. Lead with a clear ROI narrative: upgraded in-room TV systems before the tournament = higher ADR, better reviews, and competitive positioning against international chain properties.
 
-### GHL's 60+ Hotel Portfolio Across LATAM — Active Expansion with Legal Infrastructure in Place
-GHL's structured expansion across Colombia, Peru, and 8 other LATAM countries, with dedicated legal and development frameworks, indicates a systematic pipeline rather than opportunistic growth. This is a scalable account with recurring procurement cycles.
-Action: Prioritize GHL as a strategic LATAM account. Request a portfolio review meeting to understand their 2026-2027 new-build and renovation schedule — a framework agreement could cover multiple properties simultaneously.
+### AI-Driven Hotel Tech Wave Accelerating Across Major Flags — Independent Hotels Must Follow
+Wyndham and Choice Hotels deploying AI at scale in the same week sets a new baseline. Independent and regional hotel groups in MEA and LATAM that lack smart in-room infrastructure will feel the gap acutely as guests compare experiences across flag and independent properties.
+Action: Use the Wyndham/Choice AI announcements as a market context opener in calls to independent hotels and regional chains in Saudi Arabia, Turkey, Colombia, and Peru. Position TCL's smart Android TV platform as the accessible, scalable path to matching flag-level in-room tech.
 

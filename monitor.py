@@ -1,4 +1,4 @@
-import os, json, smtplib, datetime, urllib.request, urllib.error
+import os, json, smtplib, datetime, urllib.request, urllib.error, sys
 import asyncio, re, tempfile, xml.etree.ElementTree as ET
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -11,6 +11,7 @@ SESSION       = os.environ.get("SESSION", "morning")
 API_BASE      = "https://lanyiapi.com"
 MODEL         = "claude-sonnet-4-6"
 VOICE         = "en-US-AndrewNeural"
+VOICE_CN      = "zh-CN-YunxiNeural"
 GITHUB_USER   = "Ismailmaby"
 REPO_NAME     = "tcl-market-monitor"
 PAGES_BASE    = "https://" + GITHUB_USER + ".github.io/" + REPO_NAME
@@ -151,28 +152,55 @@ def get_broadcast_prompt(sections, articles, session):
     return (
         "You are a senior broadcast news writer. Style: Bloomberg Radio meets BBC World Service Business. "
         "Write a professional 10-minute radio " + time_label + " script for " + date_str + ". "
-        "Target: 1500 words. Use [SECTION] on its own line between the 6 segments.\n\n"
+        "Target: 3000 words total (~15 minutes of spoken audio). Use [SECTION] on its own line between the 6 segments.\n\n"
+        "CRITICAL PRIVACY RULE: This is a PUBLIC broadcast. "
+        "Do NOT mention any specific client company names, prospect names, or internal sales targets. "
+        "Focus ONLY on: industry trends, market dynamics, hotel chain brand names (Marriott/Hilton/Accor etc as public companies), "
+        "competitor products (Samsung LYNK, LG ProCentric), and technology trends. "
+        "BD opportunities should be framed as market opportunities, not specific client mentions.\n\n"
         "STRUCTURE:\n"
-        "OPENING (60 words): Strong hook, date, tease top 3 stories.\n"
+        "OPENING (120 words): Strong hook, date, tease top 3 stories.\n"
         "[SECTION]\n"
-        "MEA HOTEL MARKET (280 words): Lead with strongest story. Market context, pipeline numbers, chain names.\n"
+        "MEA HOTEL MARKET (560 words): Market trends, pipeline numbers, major hotel brand expansions in UAE and Saudi. "
+        "Focus on publicly known developments.\n"
         "[SECTION]\n"
-        "LATAM HOTEL MARKET (280 words): Brazil focus then wider LATAM. City-level specifics.\n"
+        "LATAM HOTEL MARKET (560 words): Brazil and South America hotel landscape, brand expansions, market opportunities.\n"
         "[SECTION]\n"
-        "COMPETITIVE INTELLIGENCE (280 words): Samsung LYNK and LG ProCentric weaknesses TCL can exploit.\n"
+        "COMPETITIVE INTELLIGENCE (560 words): Samsung LYNK and LG ProCentric public product moves and market positioning weaknesses.\n"
         "[SECTION]\n"
-        "HOSPITALITY TECHNOLOGY (280 words): IPTV middleware, Android TV, in-room entertainment.\n"
+        "HOSPITALITY TECHNOLOGY (560 words): IPTV middleware trends, Android TV adoption, in-room entertainment evolution.\n"
         "[SECTION]\n"
-        "BD OPPORTUNITIES AND CLOSE (280 words): Specific accounts and tenders this week. Sharp close.\n\n"
+        "MARKET OUTLOOK AND CLOSE (560 words): Key market opportunities in MEA and LATAM for hospitality TV suppliers. "
+        "Forward-looking industry analysis. Sharp motivational close.\n\n"
         "RULES:\n"
         "- Spoken English only. No bullets. No headers. No asterisks.\n"
         "- Vary sentence length. Natural broadcast rhythm.\n"
         "- Transitions: Meanwhile... Turning now to... On the competitive front... And finally...\n"
         "- Reference real news sources and headlines where relevant.\n"
+        "- NO specific client or prospect company names in the script.\n"
         "- [SECTION] on its own line only.\n\n"
         "TOP NEWS HEADLINES TODAY:\n" + headlines + "\n\n"
         "INTELLIGENCE ANALYSIS:\n" + intel
     )
+def get_chinese_broadcast_prompt(english_script, session):
+    time_label = "早间播报" if session == "morning" else "晚间播报"
+    return (
+        "你是一名专业的中文广播新闻播音员，风格参考中央人民广播电台和中国国际广播电台。"
+        "请将以下英文酒店行业市场情报播报稿翻译并改写为标准中文广播稿。\n\n"
+        "要求：\n"
+        "- 目标时长：15分钟朗读内容（约2500-3000中文字）\n"
+        "- 语言：标准普通话，播音腔，正式庄重\n"
+        "- 句式：多用短句，适合朗读，节奏流畅\n"
+        "- 过渡语：使用'与此同时'、'转眼来看'、'在竞争格局方面'、'最后'等\n"
+        "- 保留[SECTION]标记在对应位置（单独一行）\n"
+        "- 隐私规则：不提及任何具体客户或潜在客户名称\n"
+        "- 可提及公开的酒店品牌（万豪、希尔顿、雅高等）和竞品（三星LYNK、LG ProCentric）\n"
+        "- 开头说：'现在是TCL市场情报" + time_label + "，以下是今日要点。'\n"
+        "- 结尾说：'以上是今日TCL市场情报播报，感谢收听，祝您工作顺利。'\n\n"
+        "原文英文播报稿：\n" + english_script
+    )
+
+
 
 def call_api(prompt, max_tokens=2000):
     payload = json.dumps({
@@ -230,6 +258,15 @@ async def _tts_segment(text, path):
 def tts(text, path):
     asyncio.run(_tts_segment(text, path))
 
+async def _tts_segment_cn(text, path):
+    import edge_tts
+    tts = edge_tts.Communicate(text, voice=VOICE_CN, rate="+5%", pitch="-2Hz")
+    await tts.save(path)
+
+def tts_cn(text, path):
+    asyncio.run(_tts_segment_cn(text, path))
+
+
 def make_news_intro(duration_ms=7000):
     from pydub.generators import Sine
     from pydub import AudioSegment
@@ -272,41 +309,77 @@ def make_news_background(duration_ms):
     hum = Sine(60).to_audio_segment(duration=duration_ms).apply_gain(-30)
     return noise.overlay(hum)
 
-def generate_full_audio(broadcast_script, output_path):
+def generate_voice_track(script, voice_func, tmpdir, prefix):
     from pydub import AudioSegment
-    print("  Splitting into segments...")
-    parts = [p.strip() for p in re.split(r'\[SECTION\]', broadcast_script) if p.strip()]
-    print("  Segments: " + str(len(parts)))
-    tmpdir = tempfile.mkdtemp()
-    voice_segments = []
+    parts = [p.strip() for p in re.split(r'\[SECTION\]', script) if p.strip()]
+    print("  " + prefix + " segments: " + str(len(parts)))
+    chime = make_transition_chime()
+    track = AudioSegment.empty()
     for i, part in enumerate(parts):
-        part_path = os.path.join(tmpdir, "seg_" + str(i) + ".mp3")
-        print("  TTS " + str(i+1) + "/" + str(len(parts)) + " (" + str(len(part)) + " chars)...")
+        part_path = os.path.join(tmpdir, prefix + "_" + str(i) + ".mp3")
+        print("  TTS " + prefix + " " + str(i+1) + "/" + str(len(parts)) + " (" + str(len(part)) + " chars)...")
         try:
-            tts(part, part_path)
-            voice_segments.append(AudioSegment.from_mp3(part_path))
+            voice_func(part, part_path)
+            seg = AudioSegment.from_mp3(part_path)
+            track += seg if i == 0 else chime + seg
         except Exception as e:
             print("  TTS error: " + str(e)[:60])
-            voice_segments.append(AudioSegment.silent(duration=1000))
-    chime = make_transition_chime()
-    voice_track = AudioSegment.empty()
-    for i, seg in enumerate(voice_segments):
-        voice_track += seg if i == 0 else chime + seg
-    total_ms = len(voice_track)
-    print("  Voice: " + str(round(total_ms/60000, 1)) + " min")
+            track += AudioSegment.silent(duration=1000)
+    return track
+
+def make_language_bridge():
+    from pydub.generators import Sine
+    from pydub import AudioSegment
+    silence = AudioSegment.silent(duration=1000)
+    notes = [(660,0,600),(880,400,500),(1108,800,400),(1320,1200,800)]
+    bridge = AudioSegment.silent(duration=3000)
+    for freq, pos, dur in notes:
+        note = Sine(freq).to_audio_segment(duration=dur).fade_in(50).fade_out(400).apply_gain(-10)
+        bridge = bridge.overlay(note, position=pos)
+    return silence + bridge + silence
+
+def generate_full_audio(broadcast_script, chinese_script, output_path):
+    from pydub import AudioSegment
+    tmpdir = tempfile.mkdtemp()
+
+    # English track
+    print("  [EN] Generating English voice track...")
+    en_track = generate_voice_track(broadcast_script, tts, tmpdir, "en")
+    en_min = round(len(en_track)/60000, 1)
+    print("  [EN] Duration: " + str(en_min) + " min")
+
+    # Chinese track
+    print("  [CN] Generating Chinese voice track...")
+    cn_track = generate_voice_track(chinese_script, tts_cn, tmpdir, "cn")
+    cn_min = round(len(cn_track)/60000, 1)
+    print("  [CN] Duration: " + str(cn_min) + " min")
+
+    # Bridge between languages
+    bridge = make_language_bridge()
+
+    # Full voice content
+    voice_content = en_track + bridge + cn_track
+    total_ms = len(voice_content)
+
+    # Music bookends
     intro = make_news_intro(7000)
     outro = make_outro(5000)
     full_ms = len(intro) + total_ms + len(outro)
+
+    # Background ambient
     background = make_news_background(full_ms)
-    foreground = intro + voice_track + outro
+    foreground = intro + voice_content + outro
     final = foreground.overlay(background)
+
     peak = final.max_dBFS
     if peak < -3:
         final = final.apply_gain(-3 - peak)
+
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     final.export(output_path, format="mp3", bitrate="128k")
     size = os.path.getsize(output_path)
-    print("  Audio: " + str(round(total_ms/60000, 1)) + " min, " + str(round(size/1024/1024, 1)) + " MB")
+    total_min = round(total_ms/60000, 1)
+    print("  Final: EN " + str(en_min) + "min + CN " + str(cn_min) + "min = " + str(total_min) + "min total, " + str(round(size/1024/1024, 1)) + " MB")
     return size
 
 def update_rss_feed(run_date, session, audio_filename, audio_size, episode_title):
@@ -354,7 +427,7 @@ def update_rss_feed(run_date, session, audio_filename, audio_size, episode_title
         f.write(rss)
     print("  RSS updated")
 
-def build_html_email(sections, articles, run_date, session, has_audio):
+def build_html_email(sections, articles, run_date, session, has_audio, pipeline_html=""):
     total = sum(len(s.get("items",[])) for s in sections)
     label = "Morning Briefing" if session == "morning" else "Evening Update"
     source_list = list(set(a["source"] for a in articles))
@@ -402,6 +475,10 @@ def build_html_email(sections, articles, run_date, session, has_audio):
                 "</div>"
             )
         html += "</div>"
+    # Inject pipeline report (AM only)
+    if pipeline_html:
+        html += pipeline_html
+
     html += (
         "<div style='margin-top:36px;padding-top:20px;border-top:1px solid #eee;text-align:center;'>"
         "<p style='font-size:11px;color:#aaa;line-height:1.8;margin:0;'>"
@@ -460,6 +537,22 @@ def main():
     print("\n[1/5] Fetching real news from industry RSS sources...")
     articles = fetch_all_news()
 
+    # Load pipeline report (AM only)
+    pipeline_html = ""
+    pipeline_md = ""
+    if SESSION == "morning":
+        try:
+            import importlib.util, os as _os
+            spec = importlib.util.spec_from_file_location(
+                "pipeline_report",
+                _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "pipeline_report.py")
+            )
+            pr = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(pr)
+            pipeline_html, pipeline_md = pr.get_pipeline_report()
+        except Exception as e:
+            print("  Pipeline skipped: " + str(e)[:80])
+
     print("\n[2/5] Analyzing with Claude...")
     sections = []
     if articles:
@@ -488,9 +581,20 @@ def main():
     audio_filename = "tcl_" + ("am" if SESSION=="morning" else "pm") + "_" + run_date[:10].replace("-","") + "_" + ts + ".mp3"
     audio_path = "docs/audio/" + audio_filename
 
+    # Generate Chinese broadcast script
+    chinese_script = ""
+    if broadcast_script:
+        print("\n[3.5/5] Translating to Chinese broadcast script...")
+        try:
+            raw_cn = call_api(get_chinese_broadcast_prompt(broadcast_script, SESSION), max_tokens=3000)
+            chinese_script = extract_text(raw_cn)
+            print("  Chinese script: " + str(len(chinese_script)) + " chars")
+        except Exception as e:
+            print("  Chinese script error: " + str(e))
+
     if broadcast_script:
         try:
-            audio_size = generate_full_audio(broadcast_script, audio_path)
+            audio_size = generate_full_audio(broadcast_script, chinese_script, audio_path)
             has_audio = audio_size > 0
             if has_audio:
                 episode_title = "TCL Market Intel [" + ("AM" if SESSION=="morning" else "PM") + "] - " + run_date[:10]
@@ -500,7 +604,9 @@ def main():
 
     print("\n[5/5] Sending email...")
     md   = build_markdown(sections, articles, run_date, SESSION)
-    html = build_html_email(sections, articles, run_date, SESSION, has_audio)
+    html = build_html_email(sections, articles, run_date, SESSION, has_audio, pipeline_html)
+    if pipeline_md:
+        md = md + chr(10) + chr(10) + pipeline_md
     save_markdown(md, run_date, SESSION)
     send_email(html, md, run_date, SESSION)
     print("\nDone.")

@@ -152,25 +152,25 @@ def get_broadcast_prompt(sections, articles, session):
     return (
         "You are a senior broadcast news writer. Style: Bloomberg Radio meets BBC World Service Business. "
         "Write a professional 10-minute radio " + time_label + " script for " + date_str + ". "
-        "Target: 3000 words total (~15 minutes of spoken audio). Use [SECTION] on its own line between the 6 segments.\n\n"
+        "Target: 1800 words total (~10 minutes spoken audio). Use [SECTION] on its own line between segments.\n\n"
         "CRITICAL PRIVACY RULE: This is a PUBLIC broadcast. "
         "Do NOT mention any specific client company names, prospect names, or internal sales targets. "
         "Focus ONLY on: industry trends, market dynamics, hotel chain brand names (Marriott/Hilton/Accor etc as public companies), "
         "competitor products (Samsung LYNK, LG ProCentric), and technology trends. "
         "BD opportunities should be framed as market opportunities, not specific client mentions.\n\n"
         "STRUCTURE:\n"
-        "OPENING (120 words): Strong hook, date, tease top 3 stories.\n"
+        "OPENING (80 words): Strong hook, date, tease top 3 stories.\n"
         "[SECTION]\n"
-        "MEA HOTEL MARKET (560 words): Market trends, pipeline numbers, major hotel brand expansions in UAE and Saudi. "
+        "MEA HOTEL MARKET (340 words): Market trends, pipeline numbers, major hotel brand expansions in UAE and Saudi. "
         "Focus on publicly known developments.\n"
         "[SECTION]\n"
-        "LATAM HOTEL MARKET (560 words): Brazil and South America hotel landscape, brand expansions, market opportunities.\n"
+        "LATAM HOTEL MARKET (340 words): Brazil and South America hotel landscape, brand expansions, market opportunities.\n"
         "[SECTION]\n"
-        "COMPETITIVE INTELLIGENCE (560 words): Samsung LYNK and LG ProCentric public product moves and market positioning weaknesses.\n"
+        "COMPETITIVE INTELLIGENCE (340 words): Samsung LYNK and LG ProCentric public product moves and market positioning weaknesses.\n"
         "[SECTION]\n"
-        "HOSPITALITY TECHNOLOGY (560 words): IPTV middleware trends, Android TV adoption, in-room entertainment evolution.\n"
+        "HOSPITALITY TECHNOLOGY (340 words): IPTV middleware trends, Android TV adoption, in-room entertainment evolution.\n"
         "[SECTION]\n"
-        "MARKET OUTLOOK AND CLOSE (560 words): Key market opportunities in MEA and LATAM for hospitality TV suppliers. "
+        "MARKET OUTLOOK AND CLOSE (340 words): Key market opportunities in MEA and LATAM for hospitality TV suppliers. "
         "Forward-looking industry analysis. Sharp motivational close.\n\n"
         "RULES:\n"
         "- Spoken English only. No bullets. No headers. No asterisks.\n"
@@ -218,7 +218,7 @@ def call_api(prompt, max_tokens=2000):
             "content-type": "application/json",
         }
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=90) as resp:
         return resp.read().decode()
 
 def extract_sections(raw):

@@ -54,7 +54,7 @@ def call_api(prompt, max_tokens=2000):
             "content-type": "application/json",
         }
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=90) as resp:
         data = json.loads(resp.read().decode())
         text = ""
         for block in data.get("content", []):
@@ -82,7 +82,7 @@ def translate_to_chinese_report(sections, articles, session, run_date):
         "日期：" + date_str + "，" + session_label + "\n"
         "目标读者：TCL MEA和LATAM区域的Key Account BD经理\n\n"
         "要求：\n"
-        "1. 每个板块用中文深度展开，300-400字\n"
+        "1. 每个板块用中文展开，150-200字\n"
         "2. 结合TCL的业务场景分析市场机会\n"
         "3. 明确指出对Samsung LYNK和LG ProCentric的竞争机会\n"
         "4. 每个洞察后附上具体的BD行动建议\n"

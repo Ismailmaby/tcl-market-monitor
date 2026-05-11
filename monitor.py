@@ -568,7 +568,7 @@ def main():
     broadcast_script = ""
     if sections:
         try:
-            raw_script = call_api(get_broadcast_prompt(sections, articles, SESSION), max_tokens=2500)
+            raw_script = call_api(get_broadcast_prompt(sections, articles, SESSION), max_tokens=1800)
             broadcast_script = extract_text(raw_script)
             print("  Script: " + str(len(broadcast_script)) + " chars")
         except Exception as e:
@@ -586,7 +586,7 @@ def main():
     if broadcast_script:
         print("\n[3.5/5] Translating to Chinese broadcast script...")
         try:
-            raw_cn = call_api(get_chinese_broadcast_prompt(broadcast_script, SESSION), max_tokens=3000)
+            raw_cn = call_api(get_chinese_broadcast_prompt(broadcast_script, SESSION), max_tokens=1800)
             chinese_script = extract_text(raw_cn)
             print("  Chinese script: " + str(len(chinese_script)) + " chars")
         except Exception as e:

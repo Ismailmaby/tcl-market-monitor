@@ -99,7 +99,7 @@ def translate_to_chinese_report(sections, articles, session, run_date):
         "## 五、本周BD行动优先级\n（按优先级排列，可直接执行）\n\n"
         "## 今日新闻速览\n（用一两句话总结今日抓取的真实新闻要点）"
     )
-    return call_api(prompt, max_tokens=2500)
+    return call_api(prompt, max_tokens=1800)
 
 def markdown_to_notion_blocks(md_text, session, run_date, articles):
     blocks = []

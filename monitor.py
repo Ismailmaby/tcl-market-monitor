@@ -609,6 +609,21 @@ def main():
         md = md + chr(10) + chr(10) + pipeline_md
     save_markdown(md, run_date, SESSION)
     send_email(html, md, run_date, SESSION)
+
+    # Sync to Notion
+    print("\n[5.5/5] Syncing to Notion...")
+    try:
+        import importlib.util as _ilu, os as _os
+        _spec = _ilu.spec_from_file_location(
+            "notion_sync",
+            _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "notion_sync.py")
+        )
+        _ns = _ilu.module_from_spec(_spec)
+        _spec.loader.exec_module(_ns)
+        _ns.run(sections, articles, SESSION, run_date)
+    except Exception as e:
+        print("  Notion sync skipped: " + str(e)[:80])
+
     print("\nDone.")
 
 if __name__ == "__main__":

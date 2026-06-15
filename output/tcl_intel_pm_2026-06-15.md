@@ -1,0 +1,13 @@
+# TCL Market Intelligence - Evening Update 2026-06-15
+
+## Real News Sources
+- [The Hidden Layer of Biophilic Design: How Hotels Curate Nature Through Sound](https://www.hospitalitynet.org/news/4132974/the-hidden-layer-of-biophilic-design-how-hotels-curate-nature-through-sound) — HospitalityNet Mon, 15 Ju
+- [CallTek Strengthens Global Hospitality Technology Expansion](https://www.hospitalitynet.org/news/4132972/calltek-strengthens-global-hospitality-technology-expansion) — HospitalityNet Fri, 12 Ju
+- [Most Hotels Are Invisible to AI, 52% of UK Travelers Now Plan Trips with AI, Commercial Leaders Resist Adoption](https://www.hospitalitynet.org/editorial/4132970/most-hotels-are-invisible-to-ai-52-of-uk-travelers-now-plan-trips-with-ai-commercial-leaders-resist-adoption) — HospitalityNet Fri, 12 Ju
+- [Destination AI and Hospitality Net Host A Webinar on the Current State of Robotics in Hospitality](https://www.hospitalitynet.org/news/4132967/destination-ai-and-hospitality-net-host-a-webinar-on-the-current-state-of-robotics-in-hospitality) — HospitalityNet Fri, 12 Ju
+- [The AI recommendation is the new battleground for hotel distribution](https://www.hospitalitynet.org/news/4132964/the-ai-recommendation-is-the-new-battleground-for-hotel-distribution) — HospitalityNet Fri, 12 Ju
+- [Minor Hotels Partners with Saving the Wild to Launch Wine Collection in Support of Conservation](https://www.hospitalitynet.org/news/4132963/minor-hotels-partners-with-saving-the-wild-to-launch-wine-collection-in-support-of-conservation) — HospitalityNet Fri, 12 Ju
+- [FIFA World Cup 2026 Sets New Benchmark for Trusted, Seamless Travel Across Borders](https://www.hospitalitynet.org/news/4132961/fifa-world-cup-2026-sets-new-benchmark-for-trusted-seamless-travel-across-borders) — HospitalityNet Fri, 12 Ju
+- [Hilton Announces Winners of Inaugural Americas Franchise Owner Performance Awards](https://www.hospitalitynet.org/news/4132960/hilton-announces-winners-of-inaugural-americas-franchise-owner-performance-awards) — HospitalityNet Fri, 12 Ju
+- [Accor and Inspired By KM launch "ibis unlocked" to support young people furthest from employment towards new opportunities](https://www.hospitalitynet.org/news/4132959/accor-and-inspired-by-km-launch-ibis-unlocked-to-support-young-people-furthest-from-employment-towards-new-opportunities) — HospitalityNet Fri, 12 Ju
+- [Design for More Than the Super-User: Kelly Ommundsen on Who Hospitality Tech Leaves Behind](https://www.hospitalitynet.org/interview/4132757/design-for-more-than-the-super-user-kelly-ommundsen-on-who-hospitality-tech-leaves-behind) — HospitalityNet Fri, 12 Ju

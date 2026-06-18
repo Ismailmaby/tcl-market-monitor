@@ -1,0 +1,13 @@
+# TCL Market Intelligence - Evening Update 2026-06-18
+
+## Real News Sources
+- [Stop reactive pricing: How independent hotels catch high-demand dates early](https://www.hospitalitynet.org/explainer/4133064/stop-reactive-pricing-how-independent-hotels-catch-high-demand-dates-early) — HospitalityNet Thu, 18 Ju
+- [Pricepoint Launches the First Five Episodes of Its AI Micro-Drama Series Rate War](https://www.hospitalitynet.org/opinion/4133063/pricepoint-launches-the-first-five-episodes-of-its-ai-micro-drama-series-rate-war) — HospitalityNet Thu, 18 Ju
+- [The Caribbean Hotel & Tourism Association (CHTA) Announces CHIEF 2026, a Future-focused Forum to Prepare the Industry for Caribbean Tourism 2030](https://www.hospitalitynet.org/news/4133061/the-caribbean-hotel-tourism-association-chta-announces-chief-2026-a-future-focused-forum-to-prepare-the-industry-for-caribbean-tourism-2030) — HospitalityNet Thu, 18 Ju
+- [Upgrading Downtown Memphis for Modern Convention Attendees](https://www.hospitalitynet.org/report/4133060/upgrading-downtown-memphis-for-modern-convention-attendees) — HospitalityNet Thu, 18 Ju
+- [BWH® Hotels Launches Dedicated Global Upscale & Luxury Worldwide Sales Division to Accelerate Premium Travel Growth](https://www.hospitalitynet.org/news/4133058/bwh-hotels-launches-dedicated-global-upscale-luxury-worldwide-sales-division-to-accelerate-premium-travel-growth) — HospitalityNet Thu, 18 Ju
+- [Crescent Hotels & Resorts Adds Kimpton Hotel Monaco Baltimore Inner Harbor to its Portfolio](https://www.hospitalitynet.org/news/4133057/crescent-hotels-resorts-adds-kimpton-hotel-monaco-baltimore-inner-harbor-to-its-portfolio) — HospitalityNet Thu, 18 Ju
+- [Handwritten Collection Reaches 50 Hotels Worldwide](https://www.hospitalitynet.org/news/4133056/handwritten-collection-reaches-50-hotels-worldwide) — HospitalityNet Thu, 18 Ju
+- [Hotel Distribution Technology Chart 2026: Why Visibility Is Becoming the New Distribution Strategy](https://www.hospitalitynet.org/news/4133054/hotel-distribution-technology-chart-2026-why-visibility-is-becoming-the-new-distribution-strategy) — HospitalityNet Thu, 18 Ju
+- [Design Hotels Announces Addition of Multi-Property Portfolio with Renowned Independent Hospitality Brand, Palisociety](https://www.hospitalitynet.org/news/4133053/design-hotels-announces-addition-of-multi-property-portfolio-with-renowned-independent-hospitality-brand-palisociety) — HospitalityNet Thu, 18 Ju
+- [Avani Hotels & Resorts Launches Avani Book Club, A New Chapter in Destination Discovery](https://www.hospitalitynet.org/news/4133052/avani-hotels-resorts-launches-avani-book-club-a-new-chapter-in-destination-discovery) — HospitalityNet Thu, 18 Ju

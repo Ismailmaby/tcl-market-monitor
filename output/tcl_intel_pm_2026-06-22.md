@@ -1,13 +1,13 @@
 # TCL Market Intelligence - Evening Update 2026-06-22
 
 ## Real News Sources
-- [The Unsung Heroes Behind Every World Cup Stay](https://www.hospitalitynet.org/news/4133091/the-unsung-heroes-behind-every-world-cup-stay) — HospitalityNet Mon, 22 Ju
-- [FHS SAUDI ARABIA TO TAKE THE STAGE IN RIYADH TOMORROW](https://www.hospitalitynet.org/news/4133090/fhs-saudi-arabia-to-take-the-stage-in-riyadh-tomorrow) — HospitalityNet Sun, 21 Ju
-- [Hotels Are Legally Liable for Their AI's Mistakes, Hotels No Longer Set Their Own Prices, HITEC 2026 Closes with 6,100 Attendees](https://www.hospitalitynet.org/editorial/4133087/hotels-are-legally-liable-for-their-ais-mistakes-hotels-no-longer-set-their-own-prices-hitec-2026-closes-with-6100-attendees) — HospitalityNet Fri, 19 Ju
-- [The Evolving Role of Concierge in Luxury Hospitality](https://www.hospitalitynet.org/opinion/4132328/the-evolving-role-of-concierge-in-luxury-hospitality) — HospitalityNet Fri, 19 Ju
-- [HITEC 2026 Welcomes More Than 6,100 Hospitality Technology Professionals to San Antonio](https://www.hospitalitynet.org/news/4133086/hitec-2026-welcomes-more-than-6100-hospitality-technology-professionals-to-san-antonio) — HospitalityNet Fri, 19 Ju
-- [Otherwander Soho selects Apaleo to power fully digital pod hotel concept](https://www.hospitalitynet.org/news/4133085/otherwander-soho-selects-apaleo-to-power-fully-digital-pod-hotel-concept) — HospitalityNet Fri, 19 Ju
-- [The AI booking shift: What hoteliers need to do now](https://www.hospitalitynet.org/podcast/4133084/the-ai-booking-shift-what-hoteliers-need-to-do-now) — HospitalityNet Fri, 19 Ju
-- [Hilton Partners with Big Brothers Big Sisters to Open Doors of Opportunity Across America](https://www.hospitalitynet.org/news/4133081/hilton-partners-with-big-brothers-big-sisters-to-open-doors-of-opportunity-across-america) — HospitalityNet Fri, 19 Ju
-- [Break It Before They Do](https://www.hospitalitynet.org/opinion/4133079/break-it-before-they-do) — HospitalityNet Fri, 19 Ju
-- [The Bower Coronado Joins Small Luxury Hotels of the World, Marking SLH’s First-ever Member in Coronado, California](https://www.hospitalitynet.org/news/4133078/the-bower-coronado-joins-small-luxury-hotels-of-the-world-marking-slhs-first-ever-member-in-coronado-california) — HospitalityNet Fri, 19 Ju
+- [AI Hospitality Alliance Launches to Steer Adoption, Free Breakfast Earns BWH £13.1M](https://www.hospitalitynet.org/editorial/4133112/ai-hospitality-alliance-launches-to-steer-adoption-free-breakfast-earns-bwh-131m) — HospitalityNet Mon, 22 Ju
+- [Bohopo expands European footprint with two new hotels](https://www.hospitalitynet.org/news/4133109/bohopo-expands-european-footprint-with-two-new-hotels) — HospitalityNet Mon, 22 Ju
+- [Why hotels are focusing on perceived value rather than price cuts](https://www.hospitalitynet.org/opinion/4133106/why-hotels-are-focusing-on-perceived-value-rather-than-price-cuts) — HospitalityNet Mon, 22 Ju
+- [Accor's Orient Express CEO Gilda Perez-Alvarado on Luxury Hospitality](https://www.hospitalitynet.org/opinion/4133105/accors-orient-express-ceo-gilda-perez-alvarado-on-luxury-hospitality) — HospitalityNet Mon, 22 Ju
+- [NEWH Opens Nominations for 2027 Structures of Hospitality Excellence Awards & Scholarships](https://www.hospitalitynet.org/news/4133104/newh-opens-nominations-for-2027-structures-of-hospitality-excellence-awards-scholarships) — HospitalityNet Mon, 22 Ju
+- [The Question That Is Quietly Holding Hotels Back From AI](https://www.hospitalitynet.org/opinion/4133102/the-question-that-is-quietly-holding-hotels-back-from-ai) — HospitalityNet Mon, 22 Ju
+- [HVS Asia Pacific Hospitality Newsletter - Week Ending 19 June 2026](https://www.hospitalitynet.org/news/4133100/hvs-asia-pacific-hospitality-newsletter-week-ending-19-june-2026) — HospitalityNet Mon, 22 Ju
+- [Hyatt Strengthens Italy Presence, Announces Three Openings and Debut of Hyatt Regency and Thompson Hotel Brands](https://www.hospitalitynet.org/news/4133099/hyatt-strengthens-italy-presence-announces-three-openings-and-debut-of-hyatt-regency-and-thompson-hotel-brands) — HospitalityNet Mon, 22 Ju
+- [Thailand luxury hotel transactions recorded THB 2.2bn in 2025](https://www.hospitalitynet.org/news/4133098/thailand-luxury-hotel-transactions-recorded-thb-22bn-in-2025) — HospitalityNet Mon, 22 Ju
+- [The Truth About Hotel Industry Culture](https://www.hospitalitynet.org/opinion/4133097/the-truth-about-hotel-industry-culture) — HospitalityNet Mon, 22 Ju

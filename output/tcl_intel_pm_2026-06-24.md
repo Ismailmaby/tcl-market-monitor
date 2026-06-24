@@ -1,13 +1,13 @@
 # TCL Market Intelligence - Evening Update 2026-06-24
 
 ## Real News Sources
-- [Set-Jetting: The Travel Trend Turning Screen Dreams into Real Journeys](https://www.hospitalitynet.org/news/4133160/set-jetting-the-travel-trend-turning-screen-dreams-into-real-journeys) — HospitalityNet Wed, 24 Ju
-- [Honey Creek Resort Set to Reopen July 2 Under Embergrove Hospitality Group Management](https://www.hospitalitynet.org/news/4133157/honey-creek-resort-set-to-reopen-july-2-under-embergrove-hospitality-group-management) — HospitalityNet Tue, 23 Ju
-- [AI Can Find Your Hotel But Won't Recommend It, Low Turnover Masks Rising Disengagement](https://www.hospitalitynet.org/editorial/4133154/ai-can-find-your-hotel-but-wont-recommend-it-low-turnover-masks-rising-disengagement) — HospitalityNet Tue, 23 Ju
-- [HMA crowns 2026 award winners at annual celebration](https://www.hospitalitynet.org/news/4133153/hma-crowns-2026-award-winners-at-annual-celebration) — HospitalityNet Tue, 23 Ju
-- [Corporate Hotel Programs Evolve Amid Market Complexity, Cost Pressures and Rising AI Adoption](https://www.hospitalitynet.org/news/4133152/corporate-hotel-programs-evolve-amid-market-complexity-cost-pressures-and-rising-ai-adoption) — HospitalityNet Tue, 23 Ju
-- [Why the Best Hospitality Vendors May Never Even Get Considered](https://www.hospitalitynet.org/opinion/4132680/why-the-best-hospitality-vendors-may-never-even-get-considered) — HospitalityNet Tue, 23 Ju
-- [Expedia Group Research Finds Fully Connected Hotels Eliminate Friction and Improve Revenue Performance](https://www.hospitalitynet.org/news/4133149/expedia-group-research-finds-fully-connected-hotels-eliminate-friction-and-improve-revenue-performance) — HospitalityNet Tue, 23 Ju
-- [Duetto and Triptease Launch Integration to Automate Marketing Activity Based on Occupancy.](https://www.hospitalitynet.org/news/4133148/duetto-and-triptease-launch-integration-to-automate-marketing-activity-based-on-occupancy) — HospitalityNet Tue, 23 Ju
-- [IHG Hotels & Resorts recognised as a top employer across the Middle East](https://www.hospitalitynet.org/news/4133146/ihg-hotels-resorts-recognised-as-a-top-employer-across-the-middle-east) — HospitalityNet Tue, 23 Ju
-- [Hilton Announces the Debut of Spark by Hilton in Asia Pacific with the Opening of the First Two Hotels in Bengaluru and Goa, India](https://www.hospitalitynet.org/news/4133144/hilton-announces-the-debut-of-spark-by-hilton-in-asia-pacific-with-the-opening-of-the-first-two-hotels-in-bengaluru-and-goa-india) — HospitalityNet Tue, 23 Ju
+- [Travel Media Group’s Respond & Resolve™ Celebrates 10 Years of Responding to Hotel Guest Reviews](https://www.hospitalitynet.org/news/4133173/travel-media-groups-respond-resolve-celebrates-10-years-of-responding-to-hotel-guest-reviews) — HospitalityNet Wed, 24 Ju
+- [Southern Aluminum Announces Acquisition of Ramler International](https://www.hospitalitynet.org/news/4133145/southern-aluminum-announces-acquisition-of-ramler-international) — HospitalityNet Wed, 24 Ju
+- [Train Your Team To Intentionally Communicate Hospitality Vibes](https://www.hospitalitynet.org/opinion/4133159/train-your-team-to-intentionally-communicate-hospitality-vibes) — HospitalityNet Wed, 24 Ju
+- [Radisson Hotel Group shapes the future of healthcare meeting design](https://www.hospitalitynet.org/news/4133171/radisson-hotel-group-shapes-the-future-of-healthcare-meeting-design) — HospitalityNet Wed, 24 Ju
+- [A New Chapter for Faraway: Brand Debuts in Sag Harbor and Jackson Hole](https://www.hospitalitynet.org/news/4133168/a-new-chapter-for-faraway-brand-debuts-in-sag-harbor-and-jackson-hole) — HospitalityNet Wed, 24 Ju
+- [Marriott International and CG Hospitality Global Sign Strategic Agreement to Introduce Series by Marriott in Great China](https://www.hospitalitynet.org/news/4133167/marriott-international-and-cg-hospitality-global-sign-strategic-agreement-to-introduce-series-by-marriott-in-great-china) — HospitalityNet Wed, 24 Ju
+- [The Operating Layer](https://www.hospitalitynet.org/opinion/4133166/the-operating-layer) — HospitalityNet Wed, 24 Ju
+- [Canada hotels post highest rate growth since 2024](https://www.hospitalitynet.org/news/4133165/canada-hotels-post-highest-rate-growth-since-2024) — HospitalityNet Wed, 24 Ju
+- [U.S. hotel performance for May 2026](https://www.hospitalitynet.org/news/4133164/us-hotel-performance-for-may-2026) — HospitalityNet Wed, 24 Ju
+- [The Warmth Behind the Technology — Why AI Will Make Hospitality More Human, Not Less](https://www.hospitalitynet.org/opinion/4133055/the-warmth-behind-the-technology-why-ai-will-make-hospitality-more-human-not-less) — HospitalityNet Wed, 24 Ju

@@ -1,13 +1,13 @@
 # TCL Market Intelligence - Evening Update 2026-06-29
 
 ## Real News Sources
-- [The Hotel Content Supply Chain](https://www.hospitalitynet.org/opinion/4133227/the-hotel-content-supply-chain) — HospitalityNet Sun, 28 Ju
-- [Hotels now pay to be looked at](https://www.hospitalitynet.org/opinion/4133224/hotels-now-pay-to-be-looked-at) — HospitalityNet Sat, 27 Ju
-- [World Cup Demand Lifts San Francisco RevPAR 80%, Dutch Guests Choose Lower Rates Over Amenities](https://www.hospitalitynet.org/editorial/4133225/world-cup-demand-lifts-san-francisco-revpar-80-dutch-guests-choose-lower-rates-over-amenities) — HospitalityNet Fri, 26 Ju
-- [Global Luxury Hotel Brand Signs Letter of Intent with PHAL as Top 10 Group Advances to Proof of Concept](https://www.hospitalitynet.org/news/4133222/global-luxury-hotel-brand-signs-letter-of-intent-with-phal-as-top-10-group-advances-to-proof-of-concept) — HospitalityNet Fri, 26 Ju
-- [Aimbridge Launches Global Sales Office to Pursue Cross-Region Revenue Opportunities for Owners](https://www.hospitalitynet.org/news/4133221/aimbridge-launches-global-sales-office-to-pursue-cross-region-revenue-opportunities-for-owners) — HospitalityNet Fri, 26 Ju
-- [A hotel can be excellent, bookable, and completely invisible at the same time](https://www.hospitalitynet.org/opinion/4133220/a-hotel-can-be-excellent-bookable-and-completely-invisible-at-the-same-time) — HospitalityNet Fri, 26 Ju
-- [Rethinking How Hotel Performance Is Evaluated](https://www.hospitalitynet.org/news/4133219/rethinking-how-hotel-performance-is-evaluated) — HospitalityNet Fri, 26 Ju
-- [Is Your Hotel Measuring the Right AI Prompts?](https://www.hospitalitynet.org/opinion/4133217/is-your-hotel-measuring-the-right-ai-prompts) — HospitalityNet Fri, 26 Ju
-- [7 Hidden Costs of Constant Schedule Adjustments in Hotels](https://www.hospitalitynet.org/opinion/4133216/7-hidden-costs-of-constant-schedule-adjustments-in-hotels) — HospitalityNet Fri, 26 Ju
-- [Dual-Brand Hilton Hotel Coming to Eagle County Regional Airport](https://www.hospitalitynet.org/news/4133215/dual-brand-hilton-hotel-coming-to-eagle-county-regional-airport) — HospitalityNet Fri, 26 Ju
+- [AI-native distribution isn't a project you run](https://www.hospitalitynet.org/opinion/4133244/ai-native-distribution-isnt-a-project-you-run) — HospitalityNet Mon, 29 Ju
+- [Villatel Unveils Multi-Brand Luxury Hospitality Platform, Uniting Resorts and Premium Vacation Rentals](https://www.hospitalitynet.org/news/4133243/villatel-unveils-multi-brand-luxury-hospitality-platform-uniting-resorts-and-premium-vacation-rentals) — HospitalityNet Mon, 29 Ju
+- [Pride Beyond June: Building Hospitality Where Everyone Feels Welcome](https://www.hospitalitynet.org/interview/4133242/pride-beyond-june-building-hospitality-where-everyone-feels-welcome) — HospitalityNet Mon, 29 Ju
+- [Nearly 80% of Brits are ditching overseas holidays for UK staycations this summer](https://www.hospitalitynet.org/news/4133241/nearly-80-of-brits-are-ditching-overseas-holidays-for-uk-staycations-this-summer) — HospitalityNet Mon, 29 Ju
+- [Marriott Hotels Introduces Day Use Rooms as Demand Grows for Flexible, Private Spaces in London](https://www.hospitalitynet.org/news/4133239/marriott-hotels-introduces-day-use-rooms-as-demand-grows-for-flexible-private-spaces-in-london) — HospitalityNet Mon, 29 Ju
+- [Global Millionaire Migration Reshapes Luxury Real Estate and Fuels Branded Residences Boom](https://www.hospitalitynet.org/news/4133238/global-millionaire-migration-reshapes-luxury-real-estate-and-fuels-branded-residences-boom) — HospitalityNet Mon, 29 Ju
+- [Cold Calling in the Hotel Industry: What It Is, Why Hotels Swear by It, and How to Make It Work](https://www.hospitalitynet.org/opinion/4133237/cold-calling-in-the-hotel-industry-what-it-is-why-hotels-swear-by-it-and-how-to-make-it-work) — HospitalityNet Mon, 29 Ju
+- [World Cup, Wanderlust and a Wait-and-See World: What's Shaping Global Summer Travel in 2026](https://www.hospitalitynet.org/news/4133226/world-cup-wanderlust-and-a-wait-and-see-world-whats-shaping-global-summer-travel-in-2026) — HospitalityNet Mon, 29 Ju
+- [Page Three of the Aging](https://www.hospitalitynet.org/opinion/4133234/page-three-of-the-aging) — HospitalityNet Mon, 29 Ju
+- [AI Hospitality Alliance Announces Founding Partners to Accelerate Responsible AI Adoption Across Hospitality](https://www.hospitalitynet.org/news/4133233/ai-hospitality-alliance-announces-founding-partners-to-accelerate-responsible-ai-adoption-across-hospitality) — HospitalityNet Mon, 29 Ju

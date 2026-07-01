@@ -1,0 +1,13 @@
+# TCL Market Intelligence - Evening Update 2026-07-01
+
+## Real News Sources
+- [The 6 Best Work Chat Apps for Multi-Location Hotel Groups](https://www.hospitalitynet.org/opinion/4133278/the-6-best-work-chat-apps-for-multi-location-hotel-groups) — HospitalityNet Wed, 01 Ju
+- [The 2026 RFP Season Is Here – And It’s Unlike Any Before It](https://www.hospitalitynet.org/opinion/4133276/the-2026-rfp-season-is-here-and-its-unlike-any-before-it) — HospitalityNet Tue, 30 Ju
+- [Premier Inn introduces Alliants Room Keys in Digital Wallets](https://www.hospitalitynet.org/news/4133272/premier-inn-introduces-alliants-room-keys-in-digital-wallets) — HospitalityNet Tue, 30 Ju
+- [Hospitality Daily and Destination AI Launch Industry-Wide Survey to Benchmark How Hotels Are Using AI Today](https://www.hospitalitynet.org/news/4133271/hospitality-daily-and-destination-ai-launch-industry-wide-survey-to-benchmark-how-hotels-are-using-ai-today) — HospitalityNet Tue, 30 Ju
+- [AI-Native Distribution Is the One Thing Google Won't Build, Bed Bug Safety Beats Cleanliness as Top Booking Concern, Guest Identity Is Hospitality's Real AI Gap](https://www.hospitalitynet.org/editorial/4133270/ai-native-distribution-is-the-one-thing-google-wont-build-bed-bug-safety-beats-cleanliness-as-top-booking-concern-guest-identity-is-hospitalitys-real-ai-gap) — HospitalityNet Tue, 30 Ju
+- [How hotels turn data overload into profit growth](https://www.hospitalitynet.org/podcast/4133269/how-hotels-turn-data-overload-into-profit-growth) — HospitalityNet Tue, 30 Ju
+- [Folio Joins Avendra International’s Preferred eProcurement Partner Network to Help Hotels Optimize Program Spend](https://www.hospitalitynet.org/news/4133268/folio-joins-avendra-internationals-preferred-eprocurement-partner-network-to-help-hotels-optimize-program-spend) — HospitalityNet Tue, 30 Ju
+- [Canary Technologies and Ulyses Cloud by Septeo Partner to Bring Hospitality-Specific AI to Properties Across Spain](https://www.hospitalitynet.org/news/4133267/canary-technologies-and-ulyses-cloud-by-septeo-partner-to-bring-hospitality-specific-ai-to-properties-across-spain) — HospitalityNet Tue, 30 Ju
+- [Beyond PMS and POS. Building a Connected Hotel Data Ecosystem](https://www.hospitalitynet.org/news/4133265/beyond-pms-and-pos-building-a-connected-hotel-data-ecosystem) — HospitalityNet Tue, 30 Ju
+- [IHG Hotels & Resorts adds 653 rooms to Spanish pipeline with a trio of Holiday Inn Express signings](https://www.hospitalitynet.org/news/4133264/ihg-hotels-resorts-adds-653-rooms-to-spanish-pipeline-with-a-trio-of-holiday-inn-express-signings) — HospitalityNet Tue, 30 Ju

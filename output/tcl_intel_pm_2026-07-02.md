@@ -1,0 +1,13 @@
+# TCL Market Intelligence - Evening Update 2026-07-02
+
+## Real News Sources
+- [Hotel Details That Elevate the Coolcation Experience](https://www.hospitalitynet.org/news/4133304/hotel-details-that-elevate-the-coolcation-experience) — HospitalityNet Thu, 02 Ju
+- [Doug Kennedy’s Next Staff Training Webcast: Proactive, Polite, and Productive Hotel Sales Prospecting](https://www.hospitalitynet.org/news/4133302/doug-kennedys-next-staff-training-webcast-proactive-polite-and-productive-hotel-sales-prospecting) — HospitalityNet Wed, 01 Ju
+- [Hotel Chains Built AI for the Traveler Who Comes to Them First. That Traveler Is Leaving.](https://www.hospitalitynet.org/editorial/4133301/hotel-chains-built-ai-for-the-traveler-who-comes-to-them-first-that-traveler-is-leaving) — HospitalityNet Wed, 01 Ju
+- [Choice Hotels International Appoints Artificial Intelligence Leader Ali Keshavarz to Board of Directors](https://www.hospitalitynet.org/news/4133300/choice-hotels-international-appoints-artificial-intelligence-leader-ali-keshavarz-to-board-of-directors) — HospitalityNet Wed, 01 Ju
+- [10 critical hospitality challenges AI is transforming and why hotels can no longer ignore them](https://www.hospitalitynet.org/news/4133299/10-critical-hospitality-challenges-ai-is-transforming-and-why-hotels-can-no-longer-ignore-them) — HospitalityNet Wed, 01 Ju
+- [Fitzroy Island Resort Australia Achieves 50% Night Audit Efficiency Gain With Agilysys Hospitality Ecosystem](https://www.hospitalitynet.org/news/4133275/fitzroy-island-resort-australia-achieves-50-night-audit-efficiency-gain-with-agilysys-hospitality-ecosystem) — HospitalityNet Wed, 01 Ju
+- [Laasie and Stayntouch Announce Strategic Integration to Power Next-Generation Hotel Loyalty Experiences](https://www.hospitalitynet.org/news/4133273/laasie-and-stayntouch-announce-strategic-integration-to-power-next-generation-hotel-loyalty-experiences) — HospitalityNet Wed, 01 Ju
+- [AI terms for independent hoteliers: what actually happens when a guest books through AI](https://www.hospitalitynet.org/explainer/4133296/ai-terms-for-independent-hoteliers-what-actually-happens-when-a-guest-books-through-ai) — HospitalityNet Wed, 01 Ju
+- [What HSMAI 2026 Kept Saying (Whether It Meant To or Not)](https://www.hospitalitynet.org/opinion/4133295/what-hsmai-2026-kept-saying-whether-it-meant-to-or-not) — HospitalityNet Wed, 01 Ju
+- [GreenStar Hotels Elevates Sustainable Hospitality with Canary Technologies](https://www.hospitalitynet.org/news/4133294/greenstar-hotels-elevates-sustainable-hospitality-with-canary-technologies) — HospitalityNet Wed, 01 Ju

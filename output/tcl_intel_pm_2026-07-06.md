@@ -1,13 +1,13 @@
 # TCL Market Intelligence - Evening Update 2026-07-06
 
 ## Real News Sources
-- [Hospitality's real question isn't legal. It's cultural.](https://www.hospitalitynet.org/opinion/4133341/hospitalitys-real-question-isnt-legal-its-cultural) — HospitalityNet Sat, 04 Ju
-- [AI Referral Traffic to Hotel Websites Surged 50%+, Fake AI Infographics Are Distorting Hotel Tech Decisions, U.S. RevPAR Climbed 9.6% on World Cup Demand](https://www.hospitalitynet.org/editorial/4133340/ai-referral-traffic-to-hotel-websites-surged-50-fake-ai-infographics-are-distorting-hotel-tech-decisions-us-revpar-climbed-96-on-world-cup-demand) — HospitalityNet Fri, 03 Ju
-- [Shiji's Natalie Kimball: hotels can't outspend OTAs on AI, but they can still win on experience](https://www.hospitalitynet.org/interview/4133137/shijis-natalie-kimball-hotels-cant-outspend-otas-on-ai-but-they-can-still-win-on-experience) — HospitalityNet Fri, 03 Ju
-- [Hôtel de Paris Monte-Carlo: How Heritage Hotels Transform Place into Luxury Value](https://www.hospitalitynet.org/opinion/4133339/hotel-de-paris-monte-carlo-how-heritage-hotels-transform-place-into-luxury-value) — HospitalityNet Fri, 03 Ju
-- [We need to talk about fake infographics](https://www.hospitalitynet.org/opinion/4133338/we-need-to-talk-about-fake-infographics) — HospitalityNet Fri, 03 Ju
-- [Keeping an authentic voice when AI can’t read the room](https://www.hospitalitynet.org/podcast/4133337/keeping-an-authentic-voice-when-ai-cant-read-the-room) — HospitalityNet Fri, 03 Ju
-- [The numbers behind AI's rise as a booking channel for independent hotels](https://www.hospitalitynet.org/explainer/4133336/the-numbers-behind-ais-rise-as-a-booking-channel-for-independent-hotels) — HospitalityNet Fri, 03 Ju
-- [U.S. hotel results for week ending 27 June](https://www.hospitalitynet.org/news/4133335/us-hotel-results-for-week-ending-27-june) — HospitalityNet Fri, 03 Ju
-- [How Hilton Garden Inn Cancun Airport Uses Technology to Personalize the Guest Experience](https://www.hospitalitynet.org/casestudy/4133334/how-hilton-garden-inn-cancun-airport-uses-technology-to-personalize-the-guest-experience) — HospitalityNet Fri, 03 Ju
-- [Cendyn wants hotels to get ahead of "OTA 2.0"](https://www.hospitalitynet.org/interview/4133129/cendyn-wants-hotels-to-get-ahead-of-ota-20) — HospitalityNet Fri, 03 Ju
+- [How to Mentor in Hotels in the Modern World](https://www.hospitalitynet.org/opinion/4133351/how-to-mentor-in-hotels-in-the-modern-world) — HospitalityNet Mon, 06 Ju
+- [HFTP and Destination AI Collaborate to Expand Practical AI Education and Implementation Across Hospitality](https://www.hospitalitynet.org/news/4133342/hftp-and-destination-ai-collaborate-to-expand-practical-ai-education-and-implementation-across-hospitality) — HospitalityNet Mon, 06 Ju
+- [Webinar: Robotics in Hospitality: ROI, Adoption & Operational Reality](https://www.hospitalitynet.org/interview/4133350/webinar-robotics-in-hospitality-roi-adoption-operational-reality) — HospitalityNet Mon, 06 Ju
+- [What Horst Schulze Understood About Excellence That Every Hotel Investing in AI Needs to Hear](https://www.hospitalitynet.org/opinion/4133349/what-horst-schulze-understood-about-excellence-that-every-hotel-investing-in-ai-needs-to-hear) — HospitalityNet Mon, 06 Ju
+- [Loyalty programs may be the one asset agents can't take](https://www.hospitalitynet.org/opinion/4133348/loyalty-programs-may-be-the-one-asset-agents-cant-take) — HospitalityNet Mon, 06 Ju
+- [Accor and Banque des Territoires Join Forces for the Revival of La Citadelle Vauban in Belle-Île-en-Mer](https://www.hospitalitynet.org/news/4133347/accor-and-banque-des-territoires-join-forces-for-the-revival-of-la-citadelle-vauban-in-belle-ile-en-mer) — HospitalityNet Mon, 06 Ju
+- [Lodging Interactive Introduces CruVu™, a New Private Guest Recognition Service for Hotels and Restaurants](https://www.hospitalitynet.org/news/4133329/lodging-interactive-introduces-cruvu-a-new-private-guest-recognition-service-for-hotels-and-restaurants) — HospitalityNet Mon, 06 Ju
+- [AIHA 2026 Member Survey Report](https://www.hospitalitynet.org/news/4133346/aiha-2026-member-survey-report) — HospitalityNet Mon, 06 Ju
+- [RobosizeME’s Sean Anderson: why not all hotel automation should be AI](https://www.hospitalitynet.org/interview/4133134/robosizemes-sean-anderson-why-not-all-hotel-automation-should-be-ai) — HospitalityNet Mon, 06 Ju
+- [The Back Hallway](https://www.hospitalitynet.org/opinion/4133345/the-back-hallway) — HospitalityNet Mon, 06 Ju

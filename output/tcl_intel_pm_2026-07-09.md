@@ -1,0 +1,13 @@
+# TCL Market Intelligence - Evening Update 2026-07-09
+
+## Real News Sources
+- [From Theory to Practice: How Hotels Apply the Third Place Concept](https://www.hospitalitynet.org/news/4133406/from-theory-to-practice-how-hotels-apply-the-third-place-concept) — HospitalityNet Thu, 09 Ju
+- [Beechwood Hospitality and MMI Hotel Group announce strategic alignment](https://www.hospitalitynet.org/news/4133403/beechwood-hospitality-and-mmi-hotel-group-announce-strategic-alignment) — HospitalityNet Wed, 08 Ju
+- [Beyond Tokenomics: The Threat of the Invisible Hotel](https://www.hospitalitynet.org/opinion/4133402/beyond-tokenomics-the-threat-of-the-invisible-hotel) — HospitalityNet Wed, 08 Ju
+- [AI Hotel Rankings Change 45% of the Time, One Hotel Per Market Wins the Rest, Robotics Will Split the Industry in Two](https://www.hospitalitynet.org/editorial/4133400/ai-hotel-rankings-change-45-of-the-time-one-hotel-per-market-wins-the-rest-robotics-will-split-the-industry-in-two) — HospitalityNet Wed, 08 Ju
+- [Windsor Aughtry Completes $2.6 Million Renovation at Hospitality America-Operated Hampton by Hilton Roanoke Downtown](https://www.hospitalitynet.org/news/4133382/windsor-aughtry-completes-26-million-renovation-at-hospitality-america-operated-hampton-by-hilton-roanoke-downtown) — HospitalityNet Wed, 08 Ju
+- [TIPMO by GratifID Reveals the Top Five Digital Tipping Questions Hoteliers Posed at HITEC San Antonio](https://www.hospitalitynet.org/news/4133377/tipmo-by-gratifid-reveals-the-top-five-digital-tipping-questions-hoteliers-posed-at-hitec-san-antonio) — HospitalityNet Wed, 08 Ju
+- [One Hotel in Your Market Already Owns the AI Answer](https://www.hospitalitynet.org/opinion/4133398/one-hotel-in-your-market-already-owns-the-ai-answer) — HospitalityNet Wed, 08 Ju
+- [Amsa Hospitality, Artal Hotels, and Hyatt Announce Memorandum of Understanding for Three Hotels in Riyadh](https://www.hospitalitynet.org/news/4133397/amsa-hospitality-artal-hotels-and-hyatt-announce-memorandum-of-understanding-for-three-hotels-in-riyadh) — HospitalityNet Wed, 08 Ju
+- [Pests Like Bed Bugs Rank Ahead of Cleanliness, Staff and Value as Travellers' #1 Hotel Booking Concern, Phocuswright Research Confirms](https://www.hospitalitynet.org/news/4133396/pests-like-bed-bugs-rank-ahead-of-cleanliness-staff-and-value-as-travellers-1-hotel-booking-concern-phocuswright-research-confirms) — HospitalityNet Wed, 08 Ju
+- [HFTP and The Hospitality Law Conference Partner for Immersive Program on Financial and Regulatory Trends](https://www.hospitalitynet.org/news/4133380/hftp-and-the-hospitality-law-conference-partner-for-immersive-program-on-financial-and-regulatory-trends) — HospitalityNet Wed, 08 Ju

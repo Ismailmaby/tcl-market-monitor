@@ -1,13 +1,15 @@
 # TCL Market Intelligence - Evening Update 2026-07-13
 
+> WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
+
 ## Real News Sources
-- [AI is confidently wrong about your hotel, and the guest arrives believing it](https://www.hospitalitynet.org/opinion/4133441/ai-is-confidently-wrong-about-your-hotel-and-the-guest-arrives-believing-it) — HospitalityNet Fri, 10 Ju
-- [Radisson Hotel Group leverages its strong owner confidence to accelerate global growth](https://www.hospitalitynet.org/news/4133440/radisson-hotel-group-leverages-its-strong-owner-confidence-to-accelerate-global-growth) — HospitalityNet Fri, 10 Ju
-- [Minor Wellness Hotels Take Lead Across 2025 Performance Metrics](https://www.hospitalitynet.org/news/4133439/minor-wellness-hotels-take-lead-across-2025-performance-metrics) — HospitalityNet Fri, 10 Ju
-- [Satisfied Guests Don't Come Back, Breaking the Front Desk Costs Less Than Keeping It, U.S. RevPAR Up 10.9%](https://www.hospitalitynet.org/editorial/4133437/satisfied-guests-dont-come-back-breaking-the-front-desk-costs-less-than-keeping-it-us-revpar-up-109) — HospitalityNet Fri, 10 Ju
-- [Alila Kothaifaru Maldives, A Hyatt Resort, Elevates Family Luxury with Spacious Island Retreats](https://www.hospitalitynet.org/news/4133435/alila-kothaifaru-maldives-a-hyatt-resort-elevates-family-luxury-with-spacious-island-retreats) — HospitalityNet Fri, 10 Ju
-- [Accor and Sun Group Strengthen Strategic Partnership to Shape Landmark Hospitality Experiences Across Vietnam](https://www.hospitalitynet.org/news/4133434/accor-and-sun-group-strengthen-strategic-partnership-to-shape-landmark-hospitality-experiences-across-vietnam) — HospitalityNet Fri, 10 Ju
-- [U.S. hotel results for week ending 4 July](https://www.hospitalitynet.org/news/4133433/us-hotel-results-for-week-ending-4-july) — HospitalityNet Fri, 10 Ju
-- [Hotel Image Standards Vary Across Distribution Channels and What Hoteliers Need to Know](https://www.hospitalitynet.org/news/4133432/hotel-image-standards-vary-across-distribution-channels-and-what-hoteliers-need-to-know) — HospitalityNet Fri, 10 Ju
-- [HVS ANAROCK MONITOR, June 2026](https://www.hospitalitynet.org/report/4133431/hvs-anarock-monitor-june-2026) — HospitalityNet Fri, 10 Ju
-- [International Luxury Hotel Association Announces Continued Partnership with NUTRAFi and Welcomes Kyle Jones and Rhonda Bonilla to the NUTRAFi Leadership Team](https://www.hospitalitynet.org/news/4133430/international-luxury-hotel-association-announces-continued-partnership-with-nutrafi-and-welcomes-kyle-jones-and-rhonda-bonilla-to-the-nutrafi-leadership-team) — HospitalityNet Fri, 10 Ju
+- [How AI uses personalization to beat pricing and win bookings](https://www.hospitalitynet.org/podcast/4133458/how-ai-uses-personalization-to-beat-pricing-and-win-bookings) — HospitalityNet Mon, 13 Ju
+- [Accelerate Energy Savings. Reduce Your Capital Costs.](https://www.hotelmanagement.net/resource/accelerate-energy-savings-reduce-your-capital-costs) — Hotel Management Fri, 10 Ju
+- [Accor Hires Banks for Ennismore’s U.S. IPO: Report](https://skift.com/2026/07/10/accor-hires-banks-for-ennismores-u-s-ipo-report/) — Skift Fri, 10 Ju
+- [Digital display plays big role in Taylor Swift-Travis Kelce wedding day](https://www.digitalsignagetoday.com/articles/digital-display-plays-big-role-in-taylor-swift-travis-kelce-wedding-day/) — Digital Signage Today Mon, 13 Ju
+- [Almería, un viaje entre fortalezas, calas y paisajes de cine](https://www.hosteltur.com/177339_almeria-un-viaje-entre-fortalezas-calas-y-paisajes-de-cine.html) — Hosteltur LATAM Mon, 13 Ju
+- [Gulf Aviation on Edge as U.S.–Iran Hostilities Expose a Fragile Regional Network](https://eturbonews.com/us-iran-hostilities-gulf-aviation-qatar-uae-airlines-analysis/) — eTurboNews Sun, 12 Ju
+- [Acht Hotel-Dachterrassen, die diesen Sommer einen Besuch wert sind](https://www.businesstraveller.com/news/acht-hotel-dachterrassen-die-diesen-sommer-einen-besuch-wert-sind/) — Business Traveller Mon, 13 Ju
+- [Minor Wellness Hotels Take Lead Across 2025 Performance Metrics](https://www.hospitalitynet.org/news/4133457/minor-wellness-hotels-take-lead-across-2025-performance-metrics) — HospitalityNet Mon, 13 Ju
+- [Nominations open for 2026 Automated Retail & Kiosk Innovation Awards](https://www.kioskmarketplace.com/articles/nominations-open-for-2026-automated-retail-kiosk-innovation-awards/) — Digital Signage Today Mon, 13 Ju
+- [Los hoteles mantendrán márgenes, pese a la ralentización en el alza de la demanda](https://www.hosteltur.com/177445_los-hoteles-mantendran-margenes-pese-a-la-ralentizacion-en-el-alza-de-la-demanda.html) — Hosteltur LATAM Mon, 13 Ju

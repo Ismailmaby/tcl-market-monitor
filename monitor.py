@@ -1,5 +1,6 @@
 import os, json, smtplib, datetime, urllib.request, urllib.error, sys
 import asyncio, re, tempfile, xml.etree.ElementTree as ET
+import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -91,15 +92,34 @@ def fetch_rss(name, url, max_age_days=7):
     return articles
 
 def fetch_all_news():
-    all_articles = []
+    # FIX (2026-07-13): previously this appended articles strictly in
+    # RSS_SOURCES order, so a high-volume source listed first (HospitalityNet)
+    # could fill the entire list before lower-ranked regional sources like
+    # "Hosteltur LATAM" (5th in the list) ever got a turn. Since downstream
+    # consumers only take the first N articles (40 for AI context, 8-10 for
+    # the email), Hosteltur LATAM content was structurally squeezed out on
+    # most days. Fix: fetch per-source, dedupe, then round-robin interleave
+    # so every source gets fair representation near the top of the list.
     seen = set()
+    per_source = []
     for name, url in RSS_SOURCES:
         arts = fetch_rss(name, url)
+        deduped = []
         for a in arts:
             if a["title"] not in seen:
                 seen.add(a["title"])
-                all_articles.append(a)
-    print("  Total unique articles: " + str(len(all_articles)))
+                deduped.append(a)
+        per_source.append(deduped)
+
+    all_articles = []
+    idx = 0
+    while any(idx < len(lst) for lst in per_source):
+        for lst in per_source:
+            if idx < len(lst):
+                all_articles.append(lst[idx])
+        idx += 1
+
+    print("  Total unique articles: " + str(len(all_articles)) + " (round-robin merged across " + str(len(RSS_SOURCES)) + " sources)")
     return all_articles
 
 def build_news_context(articles):
@@ -202,24 +222,40 @@ def get_chinese_broadcast_prompt(english_script, session):
 
 
 
-def call_api(prompt, max_tokens=2000):
+def call_api(prompt, max_tokens=2000, retries=3, backoff=4):
+    # FIX (2026-07-13): previously a single failed/unparseable call here was
+    # caught by main()'s try/except and silently swallowed -- the run would
+    # still "succeed" (green in GitHub Actions) and send an email showing
+    # "0 insights", indistinguishable from a genuinely slow news day. Fix:
+    # retry transient failures with backoff, and if all retries are
+    # exhausted, raise so the caller can surface a visible failure state
+    # instead of a silent empty result.
     payload = json.dumps({
         "model": MODEL,
         "max_tokens": max_tokens,
         "stream": False,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
-    req = urllib.request.Request(
-        API_BASE + "/v1/messages",
-        data=payload,
-        headers={
-            "x-api-key": ANTHROPIC_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        }
-    )
-    with urllib.request.urlopen(req, timeout=90) as resp:
-        return resp.read().decode()
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(
+                API_BASE + "/v1/messages",
+                data=payload,
+                headers={
+                    "x-api-key": ANTHROPIC_KEY,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json",
+                }
+            )
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                return resp.read().decode()
+        except Exception as e:
+            last_err = e
+            print("  call_api attempt " + str(attempt) + "/" + str(retries) + " failed: " + str(e)[:120])
+            if attempt < retries:
+                time.sleep(backoff * attempt)
+    raise RuntimeError("call_api failed after " + str(retries) + " attempts: " + str(last_err))
 
 def extract_sections(raw):
     try:
@@ -427,7 +463,7 @@ def update_rss_feed(run_date, session, audio_filename, audio_size, episode_title
         f.write(rss)
     print("  RSS updated")
 
-def build_html_email(sections, articles, run_date, session, has_audio, pipeline_html=""):
+def build_html_email(sections, articles, run_date, session, has_audio, pipeline_html="", analysis_failed=False):
     total = sum(len(s.get("items",[])) for s in sections)
     label = "Morning Briefing" if session == "morning" else "Evening Update"
     source_list = list(set(a["source"] for a in articles))
@@ -443,10 +479,22 @@ def build_html_email(sections, articles, run_date, session, has_audio, pipeline_
         "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;margin-right:8px;'>" + run_date[:10] + "</span>"
         "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;margin-right:8px;'>" + str(len(articles)) + " real articles</span>"
         "<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;margin-right:8px;'>" + str(total) + " insights</span>"
-        + ("<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;'>🎙️ Audio ready</span>" if has_audio else "") +
+        + ("<span style='background:rgba(255,255,255,0.1);color:#cde;padding:5px 12px;border-radius:20px;font-size:12px;'>Audio ready</span>" if has_audio else "") +
         "</div></div>"
         "<div style='background:#fff;padding:8px 32px 32px;border:1px solid #dde;border-top:none;border-radius:0 0 10px 10px;'>"
     )
+    # FIX (2026-07-13): make a failed/empty AI analysis step visually loud in
+    # the email instead of silently rendering as an empty "0 insights" state
+    # that looks identical to "no relevant news today".
+    if analysis_failed:
+        html += (
+            "<div style='margin-top:20px;padding:14px 18px;background:#fff3cd;border:1px solid #ffe58f;"
+            "border-radius:8px;color:#7a5b00;font-size:13px;'>"
+            "&#9888; AI analysis step failed or returned no parseable output this run. "
+            "The article list below is real and unaffected; only the summarized insight sections are missing. "
+            "Check the GitHub Actions log for this run for details."
+            "</div>"
+        )
     # Real articles section
     html += (
         "<div style='padding-top:24px;'>"
@@ -488,9 +536,12 @@ def build_html_email(sections, articles, run_date, session, has_audio, pipeline_
     )
     return html
 
-def build_markdown(sections, articles, run_date, session):
+def build_markdown(sections, articles, run_date, session, analysis_failed=False):
     label = "Morning Briefing" if session == "morning" else "Evening Update"
     lines = ["# TCL Market Intelligence - " + label + " " + run_date[:10], ""]
+    if analysis_failed:
+        lines.append("> WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.")
+        lines.append("")
     lines.append("## Real News Sources")
     for a in articles[:10]:
         lines.append("- [" + a["title"] + "](" + a.get("link","") + ") — " + a["source"] + " " + a["pub"])
@@ -555,14 +606,20 @@ def main():
 
     print("\n[2/5] Analyzing with Claude...")
     sections = []
+    analysis_failed = False
     if articles:
         try:
             news_context = build_news_context(articles)
             raw = call_api(get_analysis_prompt(news_context, SESSION), max_tokens=1500)
             sections = extract_sections(raw)
-            print("  Sections: " + str(len(sections)) + " | Insights: " + str(sum(len(s.get("items",[])) for s in sections)))
+            if not sections:
+                analysis_failed = True
+                print("  WARNING: API call succeeded but returned 0 parseable sections")
+            else:
+                print("  Sections: " + str(len(sections)) + " | Insights: " + str(sum(len(s.get("items",[])) for s in sections)))
         except Exception as e:
-            print("  ERROR: " + str(e))
+            analysis_failed = True
+            print("  ERROR: AI analysis failed after retries: " + str(e))
 
     print("\n[3/5] Writing broadcast script...")
     broadcast_script = ""
@@ -603,8 +660,8 @@ def main():
             print("  Audio error: " + str(e))
 
     print("\n[5/5] Sending email...")
-    md   = build_markdown(sections, articles, run_date, SESSION)
-    html = build_html_email(sections, articles, run_date, SESSION, has_audio, pipeline_html)
+    md   = build_markdown(sections, articles, run_date, SESSION, analysis_failed)
+    html = build_html_email(sections, articles, run_date, SESSION, has_audio, pipeline_html, analysis_failed)
     if pipeline_md:
         md = md + chr(10) + chr(10) + pipeline_md
     save_markdown(md, run_date, SESSION)

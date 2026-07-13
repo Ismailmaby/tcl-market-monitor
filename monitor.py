@@ -258,19 +258,47 @@ def call_api(prompt, max_tokens=2000, retries=3, backoff=4):
     raise RuntimeError("call_api failed after " + str(retries) + " attempts: " + str(last_err))
 
 def extract_sections(raw):
+    # FIX (2026-07-13, round 2): previously any parse failure was reduced to
+    # a 60-char error message with no view into the actual model output, so
+    # each new failure mode required screenshotting the Actions log back and
+    # forth. Now: (1) strip markdown code fences the model sometimes wraps
+    # JSON in, (2) auto-fix trailing commas (a common small model slip),
+    # (3) on failure, print the exact text snippet around the error position
+    # so the raw output is diagnosable directly from the Actions log.
     try:
         data = json.loads(raw)
-        if "content" in data:
-            text = ""
-            for block in data["content"]:
-                if isinstance(block, dict) and block.get("type") == "text":
-                    text += block.get("text", "")
-            start = text.find("{")
-            end = text.rfind("}") + 1
-            if start >= 0 and end > start:
-                return json.loads(text[start:end]).get("sections", [])
     except Exception as e:
-        print("  Parse error: " + str(e)[:60])
+        print("  Parse error (outer response envelope): " + str(e)[:100])
+        return []
+    if "content" not in data:
+        print("  Parse error: no 'content' field in API response")
+        return []
+    text = ""
+    for block in data["content"]:
+        if isinstance(block, dict) and block.get("type") == "text":
+            text += block.get("text", "")
+    if not text:
+        print("  Parse error: empty text content from model")
+        return []
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```[a-zA-Z]*\n?", "", cleaned)
+        cleaned = re.sub(r"\n?```$", "", cleaned)
+    start = cleaned.find("{")
+    end = cleaned.rfind("}") + 1
+    if start < 0 or end <= start:
+        print("  Parse error: no JSON object braces found in model output (" + str(len(cleaned)) + " chars)")
+        return []
+    candidate = cleaned[start:end]
+    candidate_fixed = re.sub(r",(\s*[}\]])", r"\1", candidate)
+    for attempt_name, attempt_text in (("raw", candidate), ("trailing-comma-fixed", candidate_fixed)):
+        try:
+            return json.loads(attempt_text).get("sections", [])
+        except Exception as e:
+            pos = getattr(e, "pos", None)
+            snippet = attempt_text[max(0, pos-80):pos+80] if pos is not None else ""
+            print("  Parse error (" + attempt_name + "): " + str(e)[:80] + " | near: " + repr(snippet))
+    print("  Parse error: all repair attempts failed, output length " + str(len(cleaned)) + " chars")
     return []
 
 def extract_text(raw):
@@ -610,7 +638,7 @@ def main():
     if articles:
         try:
             news_context = build_news_context(articles)
-            raw = call_api(get_analysis_prompt(news_context, SESSION), max_tokens=1500)
+            raw = call_api(get_analysis_prompt(news_context, SESSION), max_tokens=3000)
             sections = extract_sections(raw)
             if not sections:
                 analysis_failed = True

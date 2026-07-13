@@ -59,6 +59,7 @@ jobs:
           GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
           RECIPIENT: ${{ secrets.RECIPIENT }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           SESSION: ${{ env.SESSION }}
         run: python monitor.py
 

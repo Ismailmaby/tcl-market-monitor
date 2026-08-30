@@ -7,7 +7,7 @@
 - [Canadians Were Just Starting to Come Around to U.S. Travel. Then Came the Trade War.](https://skift.com/2026/08/28/canada-us-trade-war-tourism/) — Skift Fri, 28 Au
 - [Samsung, Smartify partner to transform display monetization](https://www.digitalsignagetoday.com/news/samsung-smartify-partner-to-transform-display-monetization/) — Digital Signage Today Fri, 28 Au
 - [Los cinco perfiles de IA que ganarán peso en las empresas en 2026-2027](https://www.hosteltur.com/178261_los-cinco-perfiles-de-ia-que-ganaran-peso-en-las-empresas-en-2026-2027.html) — Hosteltur LATAM Sun, 30 Au
-- [North Korea’s Wonsan-Kalma Beach Resort Draws Thousands of Tourists](https://eturbonews.com/north-korea-wonsan-kalma-beach-resort/) — eTurboNews Sat, 29 Au
+- [Kristijan Curavić Takes His Plastic-Free Beach Mission to the Seabed in a World-First Challenge](https://eturbonews.com/kristijan-curavic-plastic-free-beaches-world-record/) — eTurboNews Sun, 30 Au
 - [Fresh Meet: Asia’s New MICE Hotspots](https://www.businesstraveller.com/insights/mice-venues-asia-2026/) — Business Traveller Fri, 28 Au
 - [Google Ships Agentic Booking and Puts a Points Price Beside Your Rate, HVS Holds 4.5% for 2026, 98% of Ready Buyers Abandon Anyway](https://www.hospitalitynet.org/editorial/4134140/google-ships-agentic-booking-and-puts-a-points-price-beside-your-rate-hvs-holds-45-for-2026-98-of-ready-buyers-abandon-anyway) — HospitalityNet Fri, 28 Au
 - [What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution](https://skift.com/2026/08/28/what-hotelbeds-shrinking-margins-mean-for-hotel-distribution/) — Skift Fri, 28 Au

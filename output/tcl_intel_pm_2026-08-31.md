@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Webinar on Sep 10: Top Tips to Create AI Visibility for Your Hotel](https://www.hospitalitynet.org/news/4134142/webinar-on-sep-10-top-tips-to-create-ai-visibility-for-your-hotel) — HospitalityNet Fri, 28 Au
-- [Canadians Were Just Starting to Come Around to U.S. Travel. Then Came the Trade War.](https://skift.com/2026/08/28/canada-us-trade-war-tourism/) — Skift Fri, 28 Au
-- [Samsung, Smartify partner to transform display monetization](https://www.digitalsignagetoday.com/news/samsung-smartify-partner-to-transform-display-monetization/) — Digital Signage Today Fri, 28 Au
-- [Hoteles como salvavidas frente a crisis y emergencias: una función clave por desarrollar](https://www.hosteltur.com/178303_hoteles-como-salvavidas-frente-a-crisis-y-emergencias-una-funcion-clave-por-desarrollar.html) — Hosteltur LATAM Mon, 31 Au
+- [Hilton Wires Into Google, ChatGPT and Claude, Airbnb Brings 650 Million Accounts to Hotels, Bad Records Keep You Out of AI Answers](https://www.hospitalitynet.org/editorial/4134161/hilton-wires-into-google-chatgpt-and-claude-airbnb-brings-650-million-accounts-to-hotels-bad-records-keep-you-out-of-ai-answers) — HospitalityNet Mon, 31 Au
+- [Marriott Presses Sales Teams on $1.55 Billion ‘Gap to Goal’ for 2027 Groups](https://skift.com/2026/08/31/marriott-presses-sales-teams-on-1-55-billion-gap-to-goal-for-2027-groups/) — Skift Mon, 31 Au
+- [Carousel, Amazon Signage Stick leaders share digital signage insight](https://www.digitalsignagetoday.com/podcasts/carousel-amazon-signage-stick-leaders-share-digital-signage-insight/) — Digital Signage Today Mon, 31 Au
+- [Muere Celestí Alomar, exconseller de Turismo e impulsor de la primera ecotasa de Baleares](https://www.hosteltur.com/178348_muere-celesti-alomar-exconseller-de-turismo-e-impulsor-de-la-primera-ecotasa-de-baleares.html) — Hosteltur LATAM Mon, 31 Au
 - [Kristijan Curavić Takes His Plastic-Free Beach Mission to the Seabed in a World-First Challenge](https://eturbonews.com/kristijan-curavic-plastic-free-beaches-world-record/) — eTurboNews Sun, 30 Au
-- [Fresh Meet: Asia’s New MICE Hotspots](https://www.businesstraveller.com/insights/mice-venues-asia-2026/) — Business Traveller Fri, 28 Au
-- [Google Ships Agentic Booking and Puts a Points Price Beside Your Rate, HVS Holds 4.5% for 2026, 98% of Ready Buyers Abandon Anyway](https://www.hospitalitynet.org/editorial/4134140/google-ships-agentic-booking-and-puts-a-points-price-beside-your-rate-hvs-holds-45-for-2026-98-of-ready-buyers-abandon-anyway) — HospitalityNet Fri, 28 Au
-- [What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution](https://skift.com/2026/08/28/what-hotelbeds-shrinking-margins-mean-for-hotel-distribution/) — Skift Fri, 28 Au
-- [Australian food brand deploys Fusion Signage across QSR operations](https://www.digitalsignagetoday.com/news/australian-food-brand-deploys-fusion-signage-across-qsr-operations/) — Digital Signage Today Fri, 28 Au
-- [DIT Gestión llega a los 18 acelerando en Portugal: 350 agencias en dos años](https://www.hosteltur.com/178305_dit-gestion-llega-a-los-18-acelerando-en-portugal-350-agencias-en-dos-anos.html) — Hosteltur LATAM Mon, 31 Au
+- [Inside W Abu Dhabi – Yas Island: Trackside Luxury and Race Weekend Hospitality Ahead of the 2026 Grand Prix Finale](https://www.businesstraveller.com/insights/features/inside-w-abu-dhabi-yas-island/) — Business Traveller Mon, 31 Au
+- [The Chapter 8 — The Payroll the GM Never Read](https://www.hospitalitynet.org/opinion/4134160/the-chapter-8-the-payroll-the-gm-never-read) — HospitalityNet Mon, 31 Au
+- [Your Hotel Is Hot on TikTok Go. But AI Got All The Facts Wrong.](https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos/) — Skift Mon, 31 Au
+- [Samsung, Smartify partner to transform display monetization](https://www.digitalsignagetoday.com/news/samsung-smartify-partner-to-transform-display-monetization/) — Digital Signage Today Fri, 28 Au
+- [Las patronales hoteleras de Baleares piden usar el Registro de la Propiedad contra el alquiler ilegal](https://www.hosteltur.com/178347_las-patronales-hoteleras-de-baleares-piden-usar-el-registro-de-la-propiedad-contra-el-alquiler-ilegal.html) — Hosteltur LATAM Mon, 31 Au

@@ -7,8 +7,8 @@
 - [Beyond Clean and Repaired: How Housekeeping and Maintenance Data Drive Profitability and Efficiency](https://www.hotelmanagement.net/resource/beyond-clean-and-repaired-how-housekeeping-and-maintenance-data-drive-profitability-and) — Hotel Management Mon, 14 Se
 - [Skift Global Forum Preview: IHG’s Chief Commercial & Marketing Officer on Making Hotels Legible to AI](https://skift.com/2026/09/18/skift-global-forum-preview-ihg-ai-hotel-visibility/) — Skift Fri, 18 Se
 - [Content that converts: 4 ways to power up your digital signage](https://www.digitalsignagetoday.com/resources/4-engagement-boosting-secrets-for-digital-signage/) — Digital Signage Today Thu, 17 Se
-- [Sargazo en el Caribe mexicano: los hoteles gastan hasta 30 millones de dólares anuales](https://www.hosteltur.com/178733_sargazo-en-el-caribe-mexicano-los-hoteles-gastan-hasta-30-millones-de-dolares-anuales.html) — Hosteltur LATAM Sat, 19 Se
-- [ATM 2026: Dubai Delivered, but the RX App Exposed AI’s Limits](https://eturbonews.com/arabian-travel-market-2026-dubai-rx-app-failure/) — eTurboNews Fri, 18 Se
+- [Carolina Quetglas pasará el testigo a Miguel Miralles al frente de la Agrupación de Cadenas Hoteleras](https://www.hosteltur.com/178768_carolina-quetglas-pasara-el-testigo-a-miguel-miralles-al-frente-de-la-agrupacion-de-cadenas-hoteleras.html) — Hosteltur LATAM Sat, 19 Se
+- [Jamaica, Saudi Arabia Explore New Air Links to Boost Tourism and Trade](https://eturbonews.com/jamaica-saudi-arabia-flights-air-connectivity/) — eTurboNews Sat, 19 Se
 - [Forty Years of Stonehill Taylor: Lessons in Leadership and Design](https://www.businesstraveller.com/insights/stonehill-taylor-40-years-mentorship-leadership/) — Business Traveller Fri, 18 Se
 - [Anana launches AI Workspace for Hospitality Commercial Teams](https://www.hospitalitynet.org/news/4134445/anana-launches-ai-workspace-for-hospitality-commercial-teams) — HospitalityNet Fri, 18 Se
 - [Upgrade Your Hotel Dryers: ProCapture™ by UniMac® + 0% Financing](https://www.hotelmanagement.net/resource/upgrade-your-hotel-dryers-procapturetm-unimacr-0-financing) — Hotel Management Mon, 14 Se

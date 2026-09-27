@@ -8,7 +8,7 @@
 - [Driving Innovation and Partnerships Forward](https://skift.com/2026/09/25/driving-innovation-and-partnerships-forward/) — Skift Fri, 25 Se
 - [ViewSonic tops in UK interactive display market](https://www.digitalsignagetoday.com/news/viewsonic-tops-in-uk-interactive-display-market/) — Digital Signage Today Fri, 25 Se
 - [España vuelve a conquistar el gran éxodo chino de otoño](https://www.hosteltur.com/178875_espana-vuelve-a-conquistar-el-gran-exodo-chino-de-otono.html) — Hosteltur LATAM Sun, 27 Se
-- [No Dollar Sign Attached: SKÅLITE International Awards Take a Different Path on Quality in Tourism](https://eturbonews.com/skalite-international-awards-2026-tourism-quality/) — eTurboNews Sat, 26 Se
+- [Bangkok Floods Disrupt Tourism as All 50 Districts Declared Disaster Areas](https://eturbonews.com/bangkok-floods-tourism-hotels-airports/) — eTurboNews Sun, 27 Se
 - [Why the Canvas Tote Became Fashion’s Ultimate Status Signal](https://www.businesstraveller.com/lifestyle/canvas-tote-bags-fashion-status-symbol-culture/) — Business Traveller Fri, 25 Se
 - [The hidden revenue opportunity in your hotel budget](https://www.hospitalitynet.org/podcast/4134580/the-hidden-revenue-opportunity-in-your-hotel-budget) — HospitalityNet Fri, 25 Se
 - [Unifocus Claira: Workforce Management Redefined](https://www.hotelmanagement.net/resource/unifocus-claira-workforce-management-redefined) — Hotel Management Thu, 24 Se

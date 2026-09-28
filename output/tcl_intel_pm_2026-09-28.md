@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [AI Remembers What She Liked, Not Where She Stayed, U.S. ADR Hits an All-Time Record at $179, Hotel Restaurants Have a Structure Problem Not a Menu Problem](https://www.hospitalitynet.org/editorial/4134582/ai-remembers-what-she-liked-not-where-she-stayed-us-adr-hits-an-all-time-record-at-179-hotel-restaurants-have-a-structure-problem-not-a-menu-problem) — HospitalityNet Fri, 25 Se
+- [Taking the first steps toward personalisation in your hotel](https://www.hospitalitynet.org/opinion/4134602/taking-the-first-steps-toward-personalisation-in-your-hotel) — HospitalityNet Mon, 28 Se
+- [Bankruptcy Sale: Holiday Inn Windsor](https://www.hotelmanagement.net/resource/bankruptcy-sale-holiday-inn-windsor) — Hotel Management Mon, 28 Se
+- [Accor’s Nicolas Maynard on Closing AI’s Industrialization Gap](https://skift.com/2026/09/28/skift-data-ai-summit-europe-preview-accor-nicolas-maynard/) — Skift Mon, 28 Se
+- [Waterfront Miami resort deploys LED, LCD video experience](https://www.digitalsignagetoday.com/news/waterfront-miami-resort-deploys-led-lcd-video-experience/) — Digital Signage Today Mon, 28 Se
+- [Hilton debutará en diciembre en Valencia con un hotel de 84 habitaciones](https://www.hosteltur.com/178914_hilton-debutara-en-diciembre-en-valencia-con-un-hotel-de-84-habitaciones.html) — Hosteltur LATAM Mon, 28 Se
+- [Bahamas Tourism: Ministry of Tourism Appoints Jackson Weech as Director General](https://eturbonews.com/bahamas-tourism-jackson-weech-director-general/) — eTurboNews Mon, 28 Se
+- [The Hari Hong Kong Now a Vignette Collection, Books With IHG One Rewards](https://www.businesstraveller.com/news/hari-hong-kong-ihg-vignette-collection/) — Business Traveller Mon, 28 Se
+- [You Set the Rate. Booking Sets the Price. Royal Caribbean Acquires Sandals for $3B. 109 Hotel AI Use Cases Now Catalogued.](https://www.hospitalitynet.org/editorial/4134600/you-set-the-rate-booking-sets-the-price-royal-caribbean-acquires-sandals-for-3b-109-hotel-ai-use-cases-now-catalogued) — HospitalityNet Mon, 28 Se
 - [From Room Service to Heavy Lifting. Meet Your New Coworkers.](https://www.hotelmanagement.net/resource/room-service-heavy-lifting-meet-your-new-coworkers) — Hotel Management Fri, 25 Se
-- [Cleartrip Enters India’s Fragmented Holiday Package Market](https://skift.com/2026/09/27/cleartrip-enters-indias-fragmented-holiday-package-market/) — Skift Mon, 28 Se
-- [ViewSonic tops in UK interactive display market](https://www.digitalsignagetoday.com/news/viewsonic-tops-in-uk-interactive-display-market/) — Digital Signage Today Fri, 25 Se
-- [Barceló Roma abre tras su reforma inspirada en la arquitectura racionalista](https://www.hosteltur.com/178473_barcelo-roma-abre-tras-su-reforma-inspirada-en-la-arquitectura-racionalista.html) — Hosteltur LATAM Mon, 28 Se
-- [Bangkok Floods Disrupt Tourism as All 50 Districts Declared Disaster Areas](https://eturbonews.com/bangkok-floods-tourism-hotels-airports/) — eTurboNews Sun, 27 Se
-- [Why the Canvas Tote Became Fashion’s Ultimate Status Signal](https://www.businesstraveller.com/lifestyle/canvas-tote-bags-fashion-status-symbol-culture/) — Business Traveller Fri, 25 Se
-- [The hidden revenue opportunity in your hotel budget](https://www.hospitalitynet.org/podcast/4134580/the-hidden-revenue-opportunity-in-your-hotel-budget) — HospitalityNet Fri, 25 Se
-- [Unifocus Claira: Workforce Management Redefined](https://www.hotelmanagement.net/resource/unifocus-claira-workforce-management-redefined) — Hotel Management Thu, 24 Se
-- [Driving Innovation and Partnerships Forward](https://skift.com/2026/09/25/driving-innovation-and-partnerships-forward/) — Skift Fri, 25 Se
+- [Bangkok Floods Disrupt Airports, Spare the Hotels — For Now](https://skift.com/2026/09/28/bangkok-floods-disrupt-airports-spare-the-hotels-for-now/) — Skift Mon, 28 Se

@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [As Travelers Research More with AI, Hotel Accuracy Matters More Than Ever](https://www.hospitalitynet.org/opinion/4134743/as-travelers-research-more-with-ai-hotel-accuracy-matters-more-than-ever) — HospitalityNet Tue, 06 Oc
+- [Buying a PMS: lessons from an ex-hotelier who now works in hotel tech](https://www.hospitalitynet.org/opinion/4134769/buying-a-pms-lessons-from-an-ex-hotelier-who-now-works-in-hotel-tech) — HospitalityNet Tue, 06 Oc
 - [Power Up Your Workspace with Mockett’s PCS148](https://www.hotelmanagement.net/resource/power-your-workspace-mocketts-pcs148) — Hotel Management Fri, 02 Oc
-- [Travel + Leisure Taps Wyndham to Take Sports Illustrated Resorts Into Hotels](https://skift.com/2026/10/05/travel-leisure-taps-wyndham-to-take-sports-illustrated-resorts-into-hotels/) — Skift Mon, 05 Oc
-- [Museum of AI Arts taps Epson projectors for immersive storytelling](https://www.digitalsignagetoday.com/news/museum-of-ai-arts-taps-epson-projectors-for-immersive-storytelling/) — Digital Signage Today Mon, 05 Oc
-- [Lo que un hotel descubre cuando analiza su entretenimiento como un servicio estratégico](https://www.hosteltur.com/178961_lo-que-un-hotel-descubre-cuando-analiza-su-entretenimiento-como-un-servicio-estrategico.html) — Hosteltur LATAM Tue, 06 Oc
-- [Choice Hotels Hits 600 Extended Stay Hotels as Competition Heats Up](https://eturbonews.com/choice-hotels-600-extended-stay-hotels/) — eTurboNews Mon, 05 Oc
-- [British Airways May Finally Be Getting Its Mojo Back](https://www.businesstraveller.com/news/british-airways-a380-heathrow-lounges-customer-experience-overhaul/) — Business Traveller Mon, 05 Oc
-- [You Sell the Room, the Channel Takes the Upsell, Put AI on the P&L Not the Slide Deck, Madrid's F1 Debut Left Hotel Rooms Empty at Record ADR](https://www.hospitalitynet.org/editorial/4134740/you-sell-the-room-the-channel-takes-the-upsell-put-ai-on-the-p-l-not-the-slide-deck-madrids-f1-debut-left-hotel-rooms-empty-at-record-adr) — HospitalityNet Mon, 05 Oc
-- [Gulf Hotel Deals Stall as U.S.-Iran War Scrambles Valuations](https://skift.com/2026/10/05/gulf-hotel-deals-stall-as-u-s-iran-war-scrambles-valuations/) — Skift Mon, 05 Oc
-- [Viooh, TuMedio partner on programmatic DOOH across Spain and Portugal](https://www.digitalsignagetoday.com/news/viooh-tumedio-partner-on-programmatic-dooh-across-spain-and-portugal/) — Digital Signage Today Mon, 05 Oc
+- [Airlines Get More Time on Mumbai Airport Cuts — But the Move to Navi Mumbai Is Still Coming](https://skift.com/2026/10/06/airlines-get-more-time-on-mumbai-airport-cuts-but-the-move-to-navi-mumbai-is-still-coming/) — Skift Tue, 06 Oc
+- [Car windows may soon be hologram-based ad channel](https://www.digitalsignagetoday.com/news/car-windows-may-soon-be-hologram-based-ad-channel/) — Digital Signage Today Tue, 06 Oc
+- [Exceltur hace balance del verano: “Ha sido mejor de lo esperado”, con un crecimiento del PIB turístico del 3,5%](https://www.hosteltur.com/179073_exceltur-hace-balance-del-verano-ha-sido-mejor-de-lo-esperado-con-un-crecimiento-del-pib-turistico-del-35.html) — Hosteltur LATAM Tue, 06 Oc
+- [Hilton Hires Uber’s Jeff Moore as CTO: Why Hotel Technology Leadership Is Changing](https://eturbonews.com/hilton-cto-jeff-moore-hotel-technology-ai/) — eTurboNews Tue, 06 Oc
+- [British Airways gewinnt endlich wieder seine Strahlkraft zurück](https://www.businesstraveller.com/news/british-airways-gewinnt-endlich-wieder-seine-strahlkraft-zurueck/) — Business Traveller Tue, 06 Oc
+- [The AI Booking Protocol Has No Field for Your Travel Agent, Will Agentic Bookings Flourish or Fizzle?, Inaccurate Hotel Content Costs Travelers $1,900 on Average](https://www.hospitalitynet.org/editorial/4134768/the-ai-booking-protocol-has-no-field-for-your-travel-agent-will-agentic-bookings-flourish-or-fizzle-inaccurate-hotel-content-costs-travelers-1900-on-average) — HospitalityNet Tue, 06 Oc
+- [Airbnb Is Rebuilding Its Luxe Program for High-End Homes: Scoop](https://skift.com/2026/10/06/airbnb-is-rebuilding-its-luxe-program-for-high-end-homes-scoop/) — Skift Tue, 06 Oc
+- [D.C. mall upgrades plaza with SNA Displays LED video screen](https://www.digitalsignagetoday.com/news/dc-mall-upgrades-plaza-with-sna-displays-led-video-screen/) — Digital Signage Today Tue, 06 Oc

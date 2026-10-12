@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Salvaged Stays, Wooden Key Cards, and the Stories We Carry](https://www.hospitalitynet.org/news/4134843/salvaged-stays-wooden-key-cards-and-the-stories-we-carry) — HospitalityNet Mon, 12 Oc
-- [How Hospitality HR Leaders Are Planning for 2027: Staffing, Budgeting, and Compliance Best Practices](https://www.hotelmanagement.net/premium/roundtables-webinars/755635) — Hotel Management Mon, 05 Oc
-- [The War Is Changing the Economics of Saudi Tourism](https://skift.com/2026/10/10/the-war-is-changing-the-economics-of-saudi-tourism/) — Skift Sun, 11 Oc
-- [NFL Las Vegas Raiders draft room sports lots of dvLED](https://www.digitalsignagetoday.com/news/nfl-las-vegas-raiders-draft-room-sports-lots-of-dvled/) — Digital Signage Today Fri, 09 Oc
+- [AI Finds Her the Hotel. She Won't Book Through It Yet. Hotels Turned Staff into System Operators. RevPAR Growth Is Hiding a Cost Crisis.](https://www.hospitalitynet.org/editorial/4134859/ai-finds-her-the-hotel-she-wont-book-through-it-yet-hotels-turned-staff-into-system-operators-revpar-growth-is-hiding-a-cost-crisis) — HospitalityNet Mon, 12 Oc
+- [SELECT-SERVICE MARRIOTT FRANCHISE IN NORTHERN NJ/NYC MARKET](https://www.hotelmanagement.net/resource/select-service-marriott-franchise-northern-njnyc-market-0) — Hotel Management Mon, 12 Oc
+- [Saudi Arabia’s Aviation Ambitions Meet a Week of Terror](https://skift.com/2026/10/12/saudi-arabias-aviation-ambitions-meet-a-week-of-terror/) — Skift Mon, 12 Oc
+- [Wildstone founder Damian Cox launches fundraiser following cancer diagnosis](https://www.digitalsignagetoday.com/news/wildstone-founder-damian-cox-launches-fundraiser-following-cancer-diagnosis/) — Digital Signage Today Mon, 12 Oc
 - [Reforma de hoteles: 25 años de experiencia para convertir cada proyecto en una solución a medida](https://www.hosteltur.com/178994_reforma-de-hoteles-25-anos-de-experiencia-para-convertir-cada-proyecto-en-una-solucion-a-medida.html) — Hosteltur LATAM Mon, 12 Oc
 - [Dammam Airport Attacked Sunday Evening as Saudi Aviation Crisis Threatens International Flights](https://eturbonews.com/dammam-airport-attack-saudi-arabia/) — eTurboNews Sun, 11 Oc
-- [Hilton’s Tempo Set For Europe Debut in Munich, with Rooftop Bar and Arena Next Door](https://www.businesstraveller.com/news/hiltons-tempo-makes-european-debut-in-munich-with-a-rooftop-bar-and-arena-next-door/) — Business Traveller Sat, 10 Oc
-- [Market Beat Germany - H1 2026](https://www.hospitalitynet.org/opinion/4134840/market-beat-germany-h1-2026) — HospitalityNet Fri, 09 Oc
-- [Chicago Hotel Strike Hits Marriott and Hilton Hotels During Marathon Weekend](https://skift.com/2026/10/09/chicago-hotel-strike-hits-marriott-and-hilton-hotels-during-marathon-weekend/) — Skift Fri, 09 Oc
-- [Connectpoint expands executive leadership team](https://www.digitalsignagetoday.com/news/connectpoint-expands-executive-leadership-team/) — Digital Signage Today Fri, 09 Oc
+- [John Malkovich über seinen neuen Film, die Dreharbeiten auf der Osterinsel und das Schauspielgeschäft](https://www.businesstraveller.com/news/john-malkovich-ueber-seinen-neuen-film-die-dreharbeiten-auf-der-osterinsel-und-das-schauspielgeschaeft/) — Business Traveller Mon, 12 Oc
+- [Interior Provocations #Synthetic: When Hospitality Becomes an Act of Assembly](https://www.hospitalitynet.org/opinion/4134837/interior-provocations-synthetic-when-hospitality-becomes-an-act-of-assembly) — HospitalityNet Mon, 12 Oc
+- [The War Is Changing the Economics of Saudi Tourism](https://skift.com/2026/10/10/the-war-is-changing-the-economics-of-saudi-tourism/) — Skift Sun, 11 Oc
+- [Watchfire taps Dough Waldal as CEO](https://www.digitalsignagetoday.com/news/watchfire-taps-dough-waldal-as-ceo/) — Digital Signage Today Mon, 12 Oc

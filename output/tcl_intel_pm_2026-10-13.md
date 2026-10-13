@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Otelier, Avalara Launch Two-Way Integration to Streamline Hotel Tax Compliance](https://www.hospitalitynet.org/news/4134863/otelier-avalara-launch-two-way-integration-to-streamline-hotel-tax-compliance) — HospitalityNet Tue, 13 Oc
+- [Access Point Financial Releases State of the Hotel Construction Loan Report](https://www.hospitalitynet.org/news/4134888/access-point-financial-releases-state-of-the-hotel-construction-loan-report) — HospitalityNet Tue, 13 Oc
+- [Today's Winning F&B Recipe: One Part Discipline, One Part Creativity](https://www.hotelmanagement.net/resource/todays-winning-fb-recipe-one-part-discipline-one-part-creativity) — Hotel Management Tue, 13 Oc
+- [Premier Inn Owner Fights Activist Bid as Rising Costs Squeeze Profit](https://skift.com/2026/10/13/premier-inn-owner-fights-activist-bid-as-rising-costs-squeeze-profit/) — Skift Tue, 13 Oc
+- [Ramón Estalella representará a CEHAT en el Comité Ejecutivo de HOTREC](https://www.hosteltur.com/179208_ramon-estalella-representara-a-cehat-en-el-comite-ejecutivo-de-hotrec.html) — Hosteltur LATAM Tue, 13 Oc
+- [Beyond the Guest Room: Creative Ways Hotels Can Make Every Stay More Memorable](https://eturbonews.com/beyond-the-guest-room-creative-ways-hotels-can-make-every-stay-more-memorable/) — eTurboNews Tue, 13 Oc
+- [Wie Marken wie Ibis unsere Vorstellung von Airport-Hotels unauffällig beeinflussen](https://www.businesstraveller.com/sponsored/wie-marken-wie-ibis-unsere-vorstellung-von-airport-hotels-unauffaellig-beeinflussen/) — Business Traveller Tue, 13 Oc
+- [Hospitality Asset Managers Association (HAMA) Releases Fall 2026 Conference Industry Outlook Survey Results](https://www.hospitalitynet.org/news/4134887/hospitality-asset-managers-association-hama-releases-fall-2026-conference-industry-outlook-survey-results) — HospitalityNet Tue, 13 Oc
 - [SELECT-SERVICE MARRIOTT FRANCHISE IN NORTHERN NJ/NYC MARKET](https://www.hotelmanagement.net/resource/select-service-marriott-franchise-northern-njnyc-market-0) — Hotel Management Mon, 12 Oc
-- [Postcard Hotel Is Bringing Its Brand to India’s Cities, With a Club-First Twist: Exclusive](https://skift.com/2026/10/12/postcard-hotel-is-bringing-its-brand-to-indias-cities-with-a-club-first-twist-exclusive/) — Skift Tue, 13 Oc
-- [Wildstone founder Damian Cox launches fundraiser following cancer diagnosis](https://www.digitalsignagetoday.com/news/wildstone-founder-damian-cox-launches-fundraiser-following-cancer-diagnosis/) — Digital Signage Today Mon, 12 Oc
-- [Ana Zorita (THB Hotels): “Un hotel sostenible debería ser simplemente un hotel bien gestionado](https://www.hosteltur.com/179102_ana-zorita-thb-hotels-un-hotel-sostenible-deberia-ser-simplemente-un-hotel-bien-gestionado.html) — Hosteltur LATAM Tue, 13 Oc
-- [Dammam Airport Attacked Sunday Evening as Saudi Aviation Crisis Threatens International Flights](https://eturbonews.com/dammam-airport-attack-saudi-arabia/) — eTurboNews Sun, 11 Oc
-- [John Malkovich über seinen neuen Film, die Dreharbeiten auf der Osterinsel und das Schauspielgeschäft](https://www.businesstraveller.com/news/john-malkovich-ueber-seinen-neuen-film-die-dreharbeiten-auf-der-osterinsel-und-das-schauspielgeschaeft/) — Business Traveller Mon, 12 Oc
-- [PHAL Launches the World's First Total Hotel Agentic AI Solution, as a Third Top 10 Global Operator Selects PHAL](https://www.hospitalitynet.org/news/4134857/phal-launches-the-worlds-first-total-hotel-agentic-ai-solution-as-a-third-top-10-global-operator-selects-phal) — HospitalityNet Tue, 13 Oc
-- [Stay 30 Days, Get $4 Million! Fake Challenge Videos Are a New Headache for Hotels](https://skift.com/2026/10/12/fake-hotel-challenge-videos-tiktok-instagram/) — Skift Mon, 12 Oc
-- [Watchfire taps Dough Waldal as CEO](https://www.digitalsignagetoday.com/news/watchfire-taps-dough-waldal-as-ceo/) — Digital Signage Today Mon, 12 Oc
+- [Radisson’s CEO Says Partnerships — Not Acquisitions — Will Get It to 500 Hotels in India](https://skift.com/2026/10/13/radissons-ceo-says-partnerships-not-acquisitions-will-get-it-to-500-hotels-in-india/) — Skift Tue, 13 Oc
+- [Los aeropuertos de Aena en España gestionaron un 4,2% más de pasajeros en septiembre](https://www.hosteltur.com/179199_los-aeropuertos-de-aena-en-espana-gestionaron-un-42-mas-de-pasajeros-en-septiembre.html) — Hosteltur LATAM Tue, 13 Oc

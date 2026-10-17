@@ -8,8 +8,8 @@
 - [Thailand’s Centara Targets Larger Hotel Partners to Speed Up Growth](https://skift.com/2026/10/16/thailands-centara-targets-larger-hotel-partners-to-speed-up-growth/) — Skift Fri, 16 Oc
 - [Planar debuts Nashville showroom](https://www.digitalsignagetoday.com/news/planar-debuts-nashville-showroom/) — Digital Signage Today Fri, 16 Oc
 - [Los ataques hutíes en Arabia Saudí afectan a las conexiones aéreas con España](https://www.hosteltur.com/179280_los-ataques-huties-en-arabia-saudi-afectan-a-las-conexiones-aereas-con-espana.html) — Hosteltur LATAM Sat, 17 Oc
-- [Seychelles Loses a Tourism Icon: Mickey Mason Dies at 82](https://eturbonews.com/mickey-mason-seychelles-tourism-pioneer/) — eTurboNews Fri, 16 Oc
+- [Hotels Keep Expanding. Can Profits Keep Up?](https://eturbonews.com/global-hotel-news-october-11-17-2026/) — eTurboNews Sat, 17 Oc
 - [Holiday Travel 2026: What to Expect From Fares, Airports and Disruptions](https://www.businesstraveller.com/news/holiday-travel-2026-busiest-airports-routes-fares/) — Business Traveller Thu, 15 Oc
 - [Before You Replace Your Executive Chef, Look at the Kitchen They Inherited](https://www.hospitalitynet.org/opinion/4134970/before-you-replace-your-executive-chef-look-at-the-kitchen-they-inherited) — HospitalityNet Fri, 16 Oc
 - [Today's Winning F&B Recipe: One Part Discipline, One Part Creativity](https://www.hotelmanagement.net/resource/todays-winning-fb-recipe-one-part-discipline-one-part-creativity) — Hotel Management Tue, 13 Oc
-- [Is Airbnb’s Dynamic Pricing Launch a Step Toward Becoming a Hotel-Like Franchisor?](https://skift.com/2026/10/15/is-airbnbs-dynamic-pricing-launch-a-step-toward-becoming-a-hotel-like-franchisor/) — Skift Thu, 15 Oc
+- [Global digital signage market to surpass $36B in value by 2030](https://www.digitalsignagetoday.com/news/global-digital-signage-market-to-surpass-36b-in-value-by-2030/) — Digital Signage Today Fri, 16 Oc

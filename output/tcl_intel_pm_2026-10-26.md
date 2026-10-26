@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [How growing hotel groups share finance across properties](https://www.hospitalitynet.org/opinion/4135081/how-growing-hotel-groups-share-finance-across-properties) — HospitalityNet Sun, 25 Oc
-- [Built to Compete: Why Hotel Technology Infrastructure Is the New Business Imperative](https://www.hotelmanagement.net/resource/built-compete-why-hotel-technology-infrastructure-new-business-imperative) — Hotel Management Mon, 19 Oc
-- [PS’s CEO on Running the Private Terminal and the Power of Restraint](https://skift.com/2026/10/23/pss-ceo-on-running-the-private-terminal-and-the-power-of-restraint/) — Skift Fri, 23 Oc
+- [Langham Hospitality Group Celebrates Dr. Lo Ka Shui’s HICAP Lifetime Achievement Award](https://www.hospitalitynet.org/news/4135117/langham-hospitality-group-celebrates-dr-lo-ka-shuis-hicap-lifetime-achievement-award) — HospitalityNet Mon, 26 Oc
+- [Newly Renovated, Select Service Hotel in Livingston, Texas](https://www.hotelmanagement.net/resource/newly-renovated-select-service-hotel-livingston-texas) — Hotel Management Mon, 26 Oc
+- [UAE Travelers Hesitate After Houthi Attacks But Aren’t Canceling](https://skift.com/2026/10/26/uae-travelers-hesitate-after-houthi-attacks-but-arent-canceling/) — Skift Mon, 26 Oc
+- [Veridooh appointed verification partner for Haylo](https://www.digitalsignagetoday.com/news/veridooh-appointed-verification-partner-for-haylo/) — Digital Signage Today Mon, 26 Oc
+- [Key International y Hilton abren con Panoram su primer hotel en España](https://www.hosteltur.com/179490_key-international-y-hilton-abren-con-panoram-su-primer-hotel-en-espana.html) — Hosteltur LATAM Mon, 26 Oc
+- [Could the UAE’s UN Ambitions Trigger a Leadership Shake-Up at UN Tourism?](https://eturbonews.com/uae-un-tourism-wttc-global-tourism-governance/) — eTurboNews Mon, 26 Oc
+- [Can Ben Pundole Bring the Magic Back to Miami’s Legendary Delano?](https://www.businesstraveller.com/insights/ben-pundole-delano-miami-luxury-hotel-reinvention/) — Business Traveller Mon, 26 Oc
+- [Radisson CEO Federico González on Turnarounds That Work, Prism Acquires Fletcher Hotels, Booking.com's AI Answers Guest Questions Before the Hotel Can](https://www.hospitalitynet.org/editorial/4135115/radisson-ceo-federico-gonzalez-on-turnarounds-that-work-prism-acquires-fletcher-hotels-bookingcoms-ai-answers-guest-questions-before-the-hotel-can) — HospitalityNet Mon, 26 Oc
+- [Riyadh Air Is Busing Passengers 270 Miles to Avoid Houthi Strikes](https://skift.com/2026/10/26/riyadh-air-is-busing-passengers-270-miles-to-avoid-houthi-strikes/) — Skift Mon, 26 Oc
 - [AdXact, Viooh partner to offer DOOH opportunities](https://www.digitalsignagetoday.com/news/adxact-viooh-partner-to-offer-dooh-opportunities/) — Digital Signage Today Fri, 23 Oc
-- [“Jugar con los sentimientos” de los clientes les sale a cuenta a los hoteles](https://www.hosteltur.com/179459_jugar-con-los-sentimientos-de-los-clientes-les-sale-a-cuenta-a-los-hoteles.html) — Hosteltur LATAM Mon, 26 Oc
-- [UAE Tourist Beaches Closed After Tanker Oil Spill: Air Quality Questions and Growing Concerns for Tourism](https://eturbonews.com/uae-beach-closures-tanker-oil-spill-tourism-air-quality/) — eTurboNews Sun, 25 Oc
-- [The Golden 50: These are the Best English Wines of 2026](https://www.businesstraveller.com/lifestyle/food-drink/the-golden-50-these-are-the-best-english-wines-of-2026/) — Business Traveller Fri, 23 Oc
-- [How Holiday Inn Paris — Gare de Lyon Bastille Unlocked an Extra €2K in Monthly Revenue](https://www.hospitalitynet.org/casestudy/4134928/how-holiday-inn-paris-gare-de-lyon-bastille-unlocked-an-extra-2k-in-monthly-revenue) — HospitalityNet Fri, 23 Oc
-- [Developing the Next-Generation Guest Room: Five Micro-Approaches Delivering Meaningful Impact](https://www.hotelmanagement.net/resource/developing-next-generation-guest-room-five-micro-approaches-delivering-meaningful-impact) — Hotel Management Mon, 19 Oc
-- [UAE Hotels Lean On Short-Haul Markets To Drive Recovery](https://skift.com/2026/10/23/uae-hotels-lean-on-short-haul-markets-to-drive-recovery/) — Skift Fri, 23 Oc

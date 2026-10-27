@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [A Key to the Story: Bringing Local Heritage into the Guest Experience Through Wooden Hotel Key Cards](https://www.hospitalitynet.org/news/4135121/a-key-to-the-story-bringing-local-heritage-into-the-guest-experience-through-wooden-hotel-key-cards) — HospitalityNet Tue, 27 Oc
+- [How Integrated Design and Technology are Redefining the Hotel Guest Journey](https://www.hospitalitynet.org/opinion/4135137/how-integrated-design-and-technology-are-redefining-the-hotel-guest-journey) — HospitalityNet Tue, 27 Oc
 - [Newly Renovated, Select Service Hotel in Livingston, Texas](https://www.hotelmanagement.net/resource/newly-renovated-select-service-hotel-livingston-texas) — Hotel Management Mon, 26 Oc
-- [MakeMyTrip Uses an Air Travel Dip to Reach Beyond Flights](https://skift.com/2026/10/26/makemytrip-uses-an-air-travel-dip-to-reach-beyond-flights/) — Skift Mon, 26 Oc
-- [Veridooh appointed verification partner for Haylo](https://www.digitalsignagetoday.com/news/veridooh-appointed-verification-partner-for-haylo/) — Digital Signage Today Mon, 26 Oc
-- [Palladium gana terreno con el turista español y eleva sus tarifas](https://www.hosteltur.com/179498_palladium-gana-terreno-con-el-turista-espanol-y-eleva-sus-tarifas.html) — Hosteltur LATAM Tue, 27 Oc
-- [Skål International Celebrates Global Tourism Excellence and Friendship at Istanbul Awards Gala](https://eturbonews.com/skalite-international-awards-2026-istanbul/) — eTurboNews Mon, 26 Oc
-- [Hilton Trials In-App Pay With Points at Checkout: What You Need to Know](https://www.businesstraveller.com/news/hilton-trials-in-app-pay-with-points-at-checkout-what-you-need-to-know/) — Business Traveller Mon, 26 Oc
-- [Langham Hospitality Group Celebrates Dr. Lo Ka Shui’s HICAP Lifetime Achievement Award](https://www.hospitalitynet.org/news/4135117/langham-hospitality-group-celebrates-dr-lo-ka-shuis-hicap-lifetime-achievement-award) — HospitalityNet Mon, 26 Oc
-- [UAE Travelers Hesitate After Houthi Attacks But Aren’t Canceling](https://skift.com/2026/10/26/uae-travelers-hesitate-after-houthi-attacks-but-arent-canceling/) — Skift Mon, 26 Oc
-- [AdXact, Viooh partner to offer DOOH opportunities](https://www.digitalsignagetoday.com/news/adxact-viooh-partner-to-offer-dooh-opportunities/) — Digital Signage Today Fri, 23 Oc
+- [Lanserhof’s Medical Resorts Look Beyond Weight Loss and Longevity Fads](https://skift.com/2026/10/27/lanserhofs-medical-resorts-think-beyond-weight-loss-and-longevity-fads/) — Skift Tue, 27 Oc
+- [Every departure board runs on a computer. Is anyone guarding It?](https://www.digitalsignagetoday.com/blogs/every-departure-board-runs-on-a-computer-is-anyone-guarding-it/) — Digital Signage Today Tue, 27 Oc
+- [Radisson transforma un hotel de safari en su primer Verified Net Zero de África](https://www.hosteltur.com/179523_radisson-transforma-un-hotel-de-safari-en-su-primer-verified-net-zero-de-africa.html) — Hosteltur LATAM Tue, 27 Oc
+- [Coffee Tourism: Why a Bad Hotel Breakfast or Overpriced Airport Espresso Can Damage the Travel Experience](https://eturbonews.com/coffee-tourism-hotels-airports-breakfast-culture/) — eTurboNews Tue, 27 Oc
+- [From Boardroom to Beach: The Rise of Bleisure at Hilton Mauritius](https://www.businesstraveller.com/africa-hotel-guide/hilton-mauritius-come-for-the-conference-stay-for-the-experience/) — Business Traveller Tue, 27 Oc
+- [Preferred Hotels & Resorts Expands Global Portfolio with 28 New Members](https://www.hospitalitynet.org/news/4135136/preferred-hotels-resorts-expands-global-portfolio-with-28-new-members) — HospitalityNet Tue, 27 Oc
+- [Sunday PropTech’s European Hotel Bet Has an Unexpected Profit Engine](https://skift.com/2026/10/27/sunday-proptechs-european-hotel-bet-has-an-unexpected-profit-engine/) — Skift Tue, 27 Oc
+- [Blue Rhine installing LED screens on $1.7B Exosphere](https://www.digitalsignagetoday.com/news/blue-rhine-installing-led-screens-on-17b-exosphere/) — Digital Signage Today Tue, 27 Oc

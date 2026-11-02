@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [How CIVILIAN Hotel Uses Canary to Eliminate Lobby Lines in a Small Space](https://www.hospitalitynet.org/casestudy/4135190/how-civilian-hotel-uses-canary-to-eliminate-lobby-lines-in-a-small-space) — HospitalityNet Fri, 30 Oc
+- [How the InterContinental Sydney Coogee Beach Used Canary to Level Up Their Guest Experience](https://www.hospitalitynet.org/casestudy/4135191/how-the-intercontinental-sydney-coogee-beach-used-canary-to-level-up-their-guest-experience) — HospitalityNet Mon, 02 No
 - [Balancing the Plate: Four Pillars of Hotel F&B Success](https://www.hotelmanagement.net/resource/balancing-plate-four-pillars-hotel-fb-success) — Hotel Management Fri, 30 Oc
-- [Hyatt in Trademark Clash With Hilton Over ‘Select’ in Hotel Brand Names](https://skift.com/2026/10/30/hyatt-in-trademark-clash-with-hilton-over-select-in-hotel-brand-names/) — Skift Fri, 30 Oc
-- [National CineMedia adds partners, exhibitor agreements](https://www.digitalsignagetoday.com/news/national-cinemedia-adds-partners-exhibitor-agreements/) — Digital Signage Today Fri, 30 Oc
-- [Artiem y Canarian Hospitality: apostar por la sostenibilidad repercute en el intangible](https://www.hosteltur.com/179631_artiem-y-canarian-hospitality-apostar-por-la-sostenibilidad-repercute-en-el-intangible.html) — Hosteltur LATAM Mon, 02 No
-- [U.S. to Require Ebola Travel Declaration for All International Air Arrivals](https://eturbonews.com/us-ebola-travel-declaration-november-2026/) — eTurboNews Sun, 01 No
-- [EDITION Hotels Expands into Africa, Launching on Cape Town’s V&A Waterfront](https://www.businesstraveller.com/news/edition-expands-into-africa-with-the-launch-of-the-cape-town-edition/) — Business Traveller Fri, 30 Oc
-- [Finding Your Guests in the ChatGPT Data, Most Hotel Budgets Are Agreed but Few Are Owned, The HR Playbook for Competing with Alternative Stays](https://www.hospitalitynet.org/editorial/4135206/finding-your-guests-in-the-chatgpt-data-most-hotel-budgets-are-agreed-but-few-are-owned-the-hr-playbook-for-competing-with-alternative-stays) — HospitalityNet Fri, 30 Oc
+- [Marriott’s Fees Jump 14% as Hotel Owners Seek a Bigger Cut](https://skift.com/2026/11/02/marriotts-fees-jump-14-as-hotel-owners-seek-a-bigger-cut/) — Skift Mon, 02 No
+- [Clear Channel Outdoor renews, expands airport ad partnership](https://www.digitalsignagetoday.com/news/clear-channel-outdoor-renews-expands-airport-ad-partnership/) — Digital Signage Today Mon, 02 No
+- [HBX Group lanza Growth Accelerator para dar a los hoteles más control sobre sus estrategias de crecimiento](https://www.hosteltur.com/179508_hbx-group-lanza-growth-accelerator-para-dar-a-los-hoteles-mas-control-sobre-sus-estrategias-de-crecimiento.html) — Hosteltur LATAM Mon, 02 No
+- [Arab Airlines Meet in Doha as War Tests the Region’s Global Aviation Lifeline](https://eturbonews.com/aaco-doha-arab-airlines-war-connectivity-2026/) — eTurboNews Mon, 02 No
+- [Mövenpick Launches 11th Annual ‘Kilo of Kindness’ Global Campaign](https://www.businesstraveller.com/news/movenpick-launches-11th-annual-kilo-of-kindness-global-campaign/) — Business Traveller Mon, 02 No
+- [Wyndham Grand Orlando Resort Bonnet Creek](https://www.hospitalitynet.org/casestudy/4135229/wyndham-grand-orlando-resort-bonnet-creek) — HospitalityNet Mon, 02 No
 - [Power Where You Need It. Style Where You Want It.](https://www.hotelmanagement.net/resource/power-where-you-need-it-style-where-you-want-it) — Hotel Management Fri, 30 Oc
-- [Dubai Holiday-Home Operator Silkhaus Shuts Down, Citing U.S.-Iran War](https://skift.com/2026/10/30/dubai-holiday-home-operator-silkhaus-shuts-down-citing-u-s-iran-war/) — Skift Fri, 30 Oc
+- [War Insurance Dries Up for Gulf Events as U.S.-Iran Conflict Continues](https://skift.com/2026/11/02/war-insurance-dries-up-for-gulf-events-as-u-s-iran-conflict-continues/) — Skift Mon, 02 No

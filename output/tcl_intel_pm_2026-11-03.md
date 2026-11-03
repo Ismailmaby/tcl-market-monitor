@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [GCSTIMES Brings Space Identity and Hotel Credential Innovation to EquipHotel Paris 2026](https://www.hospitalitynet.org/news/4135231/gcstimes-brings-space-identity-and-hotel-credential-innovation-to-equiphotel-paris-2026) — HospitalityNet Tue, 03 No
-- [Balancing the Plate: Four Pillars of Hotel F&B Success](https://www.hotelmanagement.net/resource/balancing-plate-four-pillars-hotel-fb-success) — Hotel Management Fri, 30 Oc
-- [Choice Hotels Narrows Its Revenue Gap, but Its Upscale Brands Still Trail](https://skift.com/2026/11/02/choice-hotels-narrows-its-revenue-gap-but-its-upscale-brands-still-trail/) — Skift Mon, 02 No
-- [Australian retailer taps Fusion Signage to reimagine store environment](https://www.digitalsignagetoday.com/news/australian-retailer-taps-fusion-signage-to-reimagine-store-environment/) — Digital Signage Today Mon, 02 No
-- [Las reservas de hotel anticipadas suben casi tres puntos a un mes del Black Friday](https://www.hosteltur.com/179640_las-reservas-de-hotel-anticipadas-suben-casi-tres-puntos-a-un-mes-del-black-friday.html) — Hosteltur LATAM Tue, 03 No
+- [RoomPriceGenie launches Portfolio Calendar to give hotel groups clearer control of revenue performance](https://www.hospitalitynet.org/news/4135249/roompricegenie-launches-portfolio-calendar-to-give-hotel-groups-clearer-control-of-revenue-performance) — HospitalityNet Tue, 03 No
+- [AirAsia Sets March 2027 Target for Bahrain Hub After War Delays](https://skift.com/2026/11/03/airasia-sets-march-2027-target-for-bahrain-hub-after-war-delays/) — Skift Tue, 03 No
+- [Connect Media spotlights the 2026 Top Women in Retail Technology Awards](https://www.retailcustomerexperience.com/articles/connect-media-spotlights-the-2026-top-women-in-retail-technology-awards/) — Digital Signage Today Tue, 03 No
+- [W2M se apoya en O7 Hotels para crecer más en Reino Unido](https://www.hosteltur.com/179671_w2m-se-apoya-en-o7-hotels-para-crecer-mas-en-reino-unido.html) — Hosteltur LATAM Tue, 03 No
 - [Arab Airlines Meet in Doha as War Tests the Region’s Global Aviation Lifeline](https://eturbonews.com/aaco-doha-arab-airlines-war-connectivity-2026/) — eTurboNews Mon, 02 No
-- [Mövenpick Launches 11th Annual ‘Kilo of Kindness’ Global Campaign](https://www.businesstraveller.com/news/movenpick-launches-11th-annual-kilo-of-kindness-global-campaign/) — Business Traveller Mon, 02 No
-- [How the InterContinental Sydney Coogee Beach Used Canary to Level Up Their Guest Experience](https://www.hospitalitynet.org/casestudy/4135191/how-the-intercontinental-sydney-coogee-beach-used-canary-to-level-up-their-guest-experience) — HospitalityNet Mon, 02 No
-- [Power Where You Need It. Style Where You Want It.](https://www.hotelmanagement.net/resource/power-where-you-need-it-style-where-you-want-it) — Hotel Management Fri, 30 Oc
-- [Marriott’s Fees Jump 14% as Hotel Owners Seek a Bigger Cut](https://skift.com/2026/11/02/marriotts-fees-jump-14-as-hotel-owners-seek-a-bigger-cut/) — Skift Mon, 02 No
+- [Naher Osten: Airlines setzen Flüge nach Dubai weiter aus](https://www.businesstraveller.com/news/airlines-verschieben-fluege-weiter/) — Business Traveller Tue, 03 No
+- [Have Hospitality Trade Shows Gone the Way of the Dodo?, Hotels Choose a Role in Guest Wellbeing, GEO and the Restaurant That Isn't Recommended](https://www.hospitalitynet.org/editorial/4135248/have-hospitality-trade-shows-gone-the-way-of-the-dodo-hotels-choose-a-role-in-guest-wellbeing-geo-and-the-restaurant-that-isnt-recommended) — HospitalityNet Tue, 03 No
+- [Why We’ve Been Looking at the Hotel Brands vs. OTAs War All Wrong](https://skift.com/2026/11/03/why-weve-been-looking-at-the-hotel-brands-vs-otas-war-all-wrong/) — Skift Tue, 03 No
+- [Determining where e-paper signage makes sense](https://www.digitalsignagetoday.com/blogs/determining-where-e-paper-signage-makes-sense/) — Digital Signage Today Tue, 03 No
+- [Marga Prohens: Baleares no puede seguir creciendo en volumen, ahora toca crecer en valor](https://www.hosteltur.com/179670_marga-prohens-baleares-no-puede-seguir-creciendo-en-volumen-ahora-toca-crecer-en-valor.html) — Hosteltur LATAM Tue, 03 No

@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Specifying Natural Stone for Hotel Bathrooms and Lobbies Without Costly Rework](https://www.hospitalitynet.org/opinion/4135457/specifying-natural-stone-for-hotel-bathrooms-and-lobbies-without-costly-rework) — HospitalityNet Fri, 13 No
+- [Top Issues Owners Face Today in 2026](https://www.hospitalitynet.org/opinion/4135471/top-issues-owners-face-today-in-2026) — HospitalityNet Fri, 13 No
 - [ALL-SUITE HOTEL IN DYNAMIC SE GEORGIA MARKET](https://www.hotelmanagement.net/resource/all-suite-hotel-dynamic-se-georgia-market) — Hotel Management Mon, 09 No
-- [Redefining Flying: Where Innovation Meets the Human Touch](https://skift.com/2026/11/12/redefining-flying-where-innovation-meets-the-human-touch/) — Skift Fri, 13 No
-- [Lumenous Edge teams with Stageline as reseller of LED screen trailers](https://www.digitalsignagetoday.com/news/lumenous-edge-teams-with-stageline-as-reseller-of-led-screen-trailers/) — Digital Signage Today Thu, 12 No
-- [Talento, internacionalización y rentabilidad: los retos del turismo de interior](https://www.hosteltur.com/179928_talento-internacionalizacion-y-rentabilidad-los-retos-del-turismo-de-interior.html) — Hosteltur LATAM Fri, 13 No
-- [Malta’s €8.90 Hospitality Wage: Is Europe’s Tourism Success Story Built on Cheap Foreign Labor?](https://eturbonews.com/malta-tourism-hospitality-wages-eu-law-us-comparison/) — eTurboNews Thu, 12 No
+- [New Webinar: Turning Travel Disruptions Into Guest Loyalty](https://skift.com/2026/11/13/new-webinar-turning-travel-disruptions-into-guest-loyalty/) — Skift Fri, 13 No
+- [Uniguest, Extreme Networks join forces to simplify digital signage deployments](https://www.digitalsignagetoday.com/news/uniguest-extreme-networks-join-forces-to-simplify-digital-signage-deployments/) — Digital Signage Today Fri, 13 No
+- [Plus Ultra prepara un ERE por fuertes pérdidas y negocia con acreedores](https://www.hosteltur.com/179952_plus-ultra-plantea-un-ere-por-fuertes-perdidas-que-afectara-a-su-plantilla-de-casi-700-empleados.html) — Hosteltur LATAM Fri, 13 No
+- [Phuket’s Luxury Boom: Can Infrastructure Keep Pace with Billions in Investment?](https://eturbonews.com/phuket-luxury-boom-infrastructure-investment/) — eTurboNews Fri, 13 No
 - [The World’s Most Beautiful Vintage Watches? Vacheron Constantin’s Inaugural Award Winners](https://www.businesstraveller.com/lifestyle/the-worlds-most-beautiful-vintage-watches-vacheron-constantins-inaugural-winners/) — Business Traveller Thu, 12 No
-- [From Booking to Check-In: How to Make the Most of Travel Tuesday](https://www.hospitalitynet.org/opinion/4135454/from-booking-to-check-in-how-to-make-the-most-of-travel-tuesday) — HospitalityNet Thu, 12 No
-- [American Express Travel on the Next Chapter for Premium Airport Hospitality](https://skift.com/2026/11/12/american-express-travel-on-the-next-chapter-for-premium-airport-hospitality/) — Skift Thu, 12 No
-- [AdQuick partners with Children’s Miracle Network to expand mission](https://www.digitalsignagetoday.com/news/adquick-partners-with-childrens-miracle-network-to-expand-mission/) — Digital Signage Today Thu, 12 No
+- [How to List Your Hotel on ChatGPT, Your Rights When Booking.com Closes Your Account, Questions to Ask Before a Loyalty Partnership](https://www.hospitalitynet.org/editorial/4135470/how-to-list-your-hotel-on-chatgpt-your-rights-when-bookingcom-closes-your-account-questions-to-ask-before-a-loyalty-partnership) — HospitalityNet Fri, 13 No
+- [The Hotel Restaurant Is Becoming the Main Event Again](https://skift.com/2026/11/13/the-hotel-restaurant-is-becoming-the-main-event-again/) — Skift Fri, 13 No
+- [ElysiumLED intro outdoor LED display series](https://www.digitalsignagetoday.com/news/elysiumled-intro-outdoor-led-display-series/) — Digital Signage Today Fri, 13 No

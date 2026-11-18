@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Green Procurement and the Changing Landscape of Sustainable Hospitality](https://www.hospitalitynet.org/news/4135534/green-procurement-and-the-changing-landscape-of-sustainable-hospitality) — HospitalityNet Wed, 18 No
-- [Accor’s $1.8 Billion Ennismore Buyout Tops 4 Rival Lifestyle Deals Combined](https://skift.com/2026/11/17/accors-1-8-billion-ennismore-buyout-tops-4-rival-lifestyle-deals-combined/) — Skift Wed, 18 No
-- [RoadHouse Cinemas deploys Samsung Onyx display](https://www.digitalsignagetoday.com/news/roadhouse-cinemas-deploys-samsung-onyx-display/) — Digital Signage Today Tue, 17 No
-- [Minor Hotels sumará su noveno establecimiento en Barcelona en 2027](https://www.hosteltur.com/180054_minor-hotels-sumara-su-noveno-establecimiento-en-barcelona-en-2027.html) — Hosteltur LATAM Wed, 18 No
-- [Bartlett Sees US$125M Richmond Hill Club as Signature Development in Tourism Transformation](https://eturbonews.com/bartlett-sees-us125m-richmond-hill-club-as-signature-development-in-tourism-transformation/) — eTurboNews Tue, 17 No
-- [Hannover: Das Technologie-Zentrum der Zukunft](https://www.businesstraveller.com/sponsored/hannover-das-technologie-zentrum-der-zukunft/) — Business Traveller Tue, 17 No
-- [From dream to journey’s end: Why distribution is the quiet hero of the AI travel era](https://www.hospitalitynet.org/opinion/4135533/from-dream-to-journeys-end-why-distribution-is-the-quiet-hero-of-the-ai-travel-era) — HospitalityNet Tue, 17 No
-- [Marriott Bonvoy Sign-Ins Were Down for Hours](https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/) — Skift Tue, 17 No
-- [Video board misuse delivers penalty for Miami RedHawks](https://www.digitalsignagetoday.com/news/video-board-misuse-delivers-penalty-for-miami-redhawks/) — Digital Signage Today Tue, 17 No
-- [Madrid y Barcelona, en el radar de la apuesta de lujo de easyJet holidays](https://www.hosteltur.com/180051_madrid-y-barcelona-en-el-radar-de-la-apuesta-de-lujo-de-easyjet-holidays.html) — Hosteltur LATAM Wed, 18 No
+- [Yahoo and HTS (Hopper Technology Solutions) team up to make travel booking more rewarding](https://www.hospitalitynet.org/news/4135551/yahoo-and-hts-hopper-technology-solutions-team-up-to-make-travel-booking-more-rewarding) — HospitalityNet Wed, 18 No
+- [From Premier Inn to Rick Stein, Britain’s Travel Businesses Are Paying for Higher Labor Costs](https://skift.com/2026/11/18/from-premier-inn-to-rick-stein-britains-travel-businesses-are-paying-for-higher-labor-costs/) — Skift Wed, 18 No
+- [Motiq Pulse launches in the UK, EMEA via X-Twenty](https://www.digitalsignagetoday.com/news/motiq-pulse-launches-in-the-uk-emea-via-x-twenty/) — Digital Signage Today Wed, 18 No
+- [España recibió más de 101 millones de pasajeros aéreos internacionales hasta octubre](https://www.hosteltur.com/180083_espana-recibio-mas-de-101-millones-de-pasajeros-aereos-internacionales-hasta-octubre.html) — Hosteltur LATAM Wed, 18 No
+- [COP31 Antalya Climate Alarm: 62% of Global Tourism Destinations Could Face a Climate Squeeze by 2050](https://eturbonews.com/cop31-antalya-climate-change-tourism-destinations-2050/) — eTurboNews Wed, 18 No
+- [Die besten neuen Hotels weltweit – November 2026](https://www.businesstraveller.com/news/die-besten-neuen-hotels-weltweit-november-2026/) — Business Traveller Wed, 18 No
+- [Rebuilding Trust at the Signia by Hilton Diplomat, Accor Moves to Buy Out Ennismore's Minority Holders, Who Pays When an AI Agent Books the Wrong Rate?](https://www.hospitalitynet.org/editorial/4135550/rebuilding-trust-at-the-signia-by-hilton-diplomat-accor-moves-to-buy-out-ennismores-minority-holders-who-pays-when-an-ai-agent-books-the-wrong-rate) — HospitalityNet Wed, 18 No
+- [Abu Dhabi Holds Its F1 Hotel Rates as Doha Cuts](https://skift.com/2026/11/18/abu-dhabi-holds-its-f1-hotel-rates-as-doha-cuts/) — Skift Wed, 18 No
+- [Broadsign, Eskimi team on programmatic DOOH expansion](https://www.digitalsignagetoday.com/news/broadsign-eskimi-team-on-programmatic-dooh-expansion/) — Digital Signage Today Wed, 18 No
+- [IHG abrirá cerca de 500 habitaciones de Holiday Inn Express en España entre 2028 y 2029](https://www.hosteltur.com/180073_ihg-abrira-cerca-de-500-habitaciones-de-holiday-inn-express-en-espana-entre-2028-y-2029.html) — Hosteltur LATAM Wed, 18 No

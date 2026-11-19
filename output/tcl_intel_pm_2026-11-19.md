@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Vibe Check-In and the Psychology of Choosing Feelings Over Destination](https://www.hospitalitynet.org/news/4135557/vibe-check-in-and-the-psychology-of-choosing-feelings-over-destination) — HospitalityNet Thu, 19 No
-- [Airbnb Pitches Hotels: We Care More About Stays Than Booking.com Does](https://skift.com/2026/11/18/airbnb-pitches-hotels-we-care-more-about-stays-than-booking-com-does/) — Skift Wed, 18 No
-- [Motiq Pulse launches in the UK, EMEA via X-Twenty](https://www.digitalsignagetoday.com/news/motiq-pulse-launches-in-the-uk-emea-via-x-twenty/) — Digital Signage Today Wed, 18 No
-- [Seis hoteleras que apuestan por un Black Friday diferente](https://www.hosteltur.com/180089_seis-hoteleras-que-apuestan-por-un-black-friday-diferente.html) — Hosteltur LATAM Thu, 19 No
+- [What Does a Career in Hospitality Mean to You?, England's Tourist Tax Needs a Spending Plan, 52% of Travelers Plan With AI but 2% Book Through It](https://www.hospitalitynet.org/editorial/4135598/what-does-a-career-in-hospitality-mean-to-you-englands-tourist-tax-needs-a-spending-plan-52-of-travelers-plan-with-ai-but-2-book-through-it) — HospitalityNet Thu, 19 No
+- [LA-Area Voters Approve Wave of Hotel Tax Hikes Ahead of 2028 Olympics](https://skift.com/2026/11/19/los-angeles-area-raise-hotel-taxes-before-olympics/) — Skift Thu, 19 No
+- [New York club deploys SNA Displays dvLED for immersive experience](https://www.digitalsignagetoday.com/news/new-york-club-deploys-sna-displays-dvled-for-immersive-experience/) — Digital Signage Today Thu, 19 No
+- [La UE premia la renovación de Calvià, elegida Capital Europea del Turismo 2027](https://www.hosteltur.com/180121_la-ue-premia-la-renovacion-turistica-de-calvia-elegida-capital-europea-del-turismo-2027.html) — Hosteltur LATAM Thu, 19 No
 - [COP31 Antalya Climate Alarm: 62% of Global Tourism Destinations Could Face a Climate Squeeze by 2050](https://eturbonews.com/cop31-antalya-climate-change-tourism-destinations-2050/) — eTurboNews Wed, 18 No
-- [Delta and Hyatt Launch Double Earning for Elite Members](https://www.businesstraveller.com/news/delta-hyatt-double-earning-loyalty-partnership-elite-benefits/) — Business Traveller Wed, 18 No
-- [A Back Office That Runs Itself: Automating Hotel Operations in 2027](https://www.hospitalitynet.org/whitepaper/4135554/a-back-office-that-runs-itself-automating-hotel-operations-in-2027) — HospitalityNet Wed, 18 No
-- [From Premier Inn to Rick Stein, Britain’s Travel Businesses Are Paying for Higher Labor Costs](https://skift.com/2026/11/18/from-premier-inn-to-rick-stein-britains-travel-businesses-are-paying-for-higher-labor-costs/) — Skift Wed, 18 No
-- [Broadsign, Eskimi team on programmatic DOOH expansion](https://www.digitalsignagetoday.com/news/broadsign-eskimi-team-on-programmatic-dooh-expansion/) — Digital Signage Today Wed, 18 No
-- [Majestic Hotel Group se afianza en el lujo con la gestión de Palacio Arriluce](https://www.hosteltur.com/180087_majestic-hotel-group-se-afianza-en-el-lujo-con-la-gestion-de-palacio-arriluce.html) — Hosteltur LATAM Thu, 19 No
+- [Ausprobiert: Four Seasons Casablanca – eine moderne und zugleich typisch marokkanische Adresse](https://www.businesstraveller.com/news/ausprobiert-four-seasons-casablanca-eine-moderne-und-zugleich-typisch-marokkanische-adresse/) — Business Traveller Thu, 19 No
+- [If AI Does the Work, Who Owns the Numbers?](https://www.hospitalitynet.org/opinion/4135596/if-ai-does-the-work-who-owns-the-numbers) — HospitalityNet Thu, 19 No
+- [Travelers Want Less Screen Time and More Time on the Water](https://skift.com/2026/11/19/outdoor-water-experiences-hospitality-opportunities-2027/) — Skift Thu, 19 No
+- [Brisbane airport taps LG displays, CMS for digital infrastructure upgrade](https://www.digitalsignagetoday.com/news/brisbane-airport-taps-lg-displays-cms-for-digital-infrastructure-upgrade/) — Digital Signage Today Thu, 19 No
+- [La apuesta de Alltours por el producto hotelero propio: 13 nuevos resorts en 2027](https://www.hosteltur.com/180106_la-apuesta-de-alltours-por-el-producto-hotelero-propio-13-nuevos-resorts-en-2027.html) — Hosteltur LATAM Thu, 19 No

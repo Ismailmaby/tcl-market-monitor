@@ -3,13 +3,13 @@
 > WARNING: AI analysis step failed or returned no parseable output this run. Article list below is real; summarized insight sections are missing. Check GitHub Actions log.
 
 ## Real News Sources
-- [Pomolabs, an IDS Next Company, Welcomes Hospitality Veteran Ajay K. Bakaya as Advisory Board Member](https://www.hospitalitynet.org/news/4135625/pomolabs-an-ids-next-company-welcomes-hospitality-veteran-ajay-k-bakaya-as-advisory-board-member) — HospitalityNet Mon, 23 No
-- [Accor’s Largest Shareholder Moves to Oust CEO After Ennismore Buyout](https://skift.com/2026/11/20/accors-largest-shareholder-moves-to-oust-ceo-after-ennismore-buyout/) — Skift Fri, 20 No
-- [Wildstone appoints Tobias Conrad as managing director](https://www.digitalsignagetoday.com/news/wildstone-appoints-tobias-conrad-as-managing-director/) — Digital Signage Today Fri, 20 No
-- [Puntos débiles en ciberseguridad hotelera y claves para reforzarla con IA](https://www.hosteltur.com/180158_puntos-debiles-en-ciberseguridad-hotelera-y-claves-para-reforzarla-con-ia.html) — Hosteltur LATAM Mon, 23 No
-- [From Zanzibar to Dubai, India to California: Hotels Are Opening, Investors Are Moving, and Hospitality Is Feeling the Pressure](https://eturbonews.com/global-hotel-hospitality-news-november-15-21-2026/) — eTurboNews Sat, 21 No
-- [Hotel Review: Fouquet’s, Paris – A Palace on the Champs-Elysées](https://www.businesstraveller.com/tried-tested/hotel-review-fouquets-paris-a-palace-on-the-champs-elysees/) — Business Traveller Sat, 21 No
-- [The Touch That Repeats: Sensory Marketing at the Frequency Guests Actually Feel](https://www.hospitalitynet.org/news/4135623/the-touch-that-repeats-sensory-marketing-at-the-frequency-guests-actually-feel) — HospitalityNet Mon, 23 No
-- [Saudi Arabia’s Diriyah Scraps $191 Million Hotel Build](https://skift.com/2026/11/20/saudi-arabias-diriyah-scraps-191-million-hotel-build/) — Skift Fri, 20 No
-- [Astral launches digital transit ad network in British Columbia](https://www.digitalsignagetoday.com/news/astral-launches-digital-transit-ad-network-in-british-columbia/) — Digital Signage Today Fri, 20 No
-- [Virtuoso: el lujo no se recorta, pero se exige más por el mismo precio](https://www.hosteltur.com/180148_virtuoso-el-lujo-no-se-recorta-pero-se-exige-mas-por-el-mismo-precio.html) — Hosteltur LATAM Mon, 23 No
+- [Hotel Operators Target Southern Europe as Contract Flexibility Grows Across the Continent, New Cushman & Wakefield Research Finds](https://www.hospitalitynet.org/news/4135652/hotel-operators-target-southern-europe-as-contract-flexibility-grows-across-the-continent-new-cushman-wakefield-research-finds) — HospitalityNet Mon, 23 No
+- [New Webinar: Who Remembers the Traveler? Building a Connected Customer Journey in the Age of AI](https://skift.com/2026/11/23/new-webinar-who-remembers-the-traveler-building-a-connected-customer-journey-in-the-age-of-ai/) — Skift Mon, 23 No
+- [Japan c-store chains expand digital signage footprints](https://www.digitalsignagetoday.com/news/japan-c-store-chains-expand-digital-signage-footprints/) — Digital Signage Today Mon, 23 No
+- [Corazul Cruceros, de cancelar en España a los tribunales en Brasil](https://www.hosteltur.com/180179_corazul-cruceros-de-cancelar-en-espana-a-los-tribunales-en-brasil.html) — Hosteltur LATAM Mon, 23 No
+- [Why Buenos Aires Travels on Its Stomach: Seven Things to Do in Spring](https://eturbonews.com/buenos-aires-food-tours-spring-things-to-do/) — eTurboNews Mon, 23 No
+- [Europapremiere: Fairmont eröffnet seine ersten Luxus-Residenzen an der Costa del Sol](https://www.businesstraveller.com/sponsored/europapremiere-fairmont-eroffnet-seine-ersten-luxus-residenzen-an-der-costa-del-sol/) — Business Traveller Mon, 23 No
+- [Three Associations, One Voice on AI](https://www.hospitalitynet.org/opinion/4135651/three-associations-one-voice-on-ai) — HospitalityNet Mon, 23 No
+- [Radisson’s First Paid Membership Targets Diners, Not Guests: Exclusive](https://skift.com/2026/11/23/radissons-first-paid-membership-targets-diners-not-guests-exclusive/) — Skift Mon, 23 No
+- [Practical tips, strategy for securing digital signage](https://www.digitalsignagetoday.com/podcasts/practical-tips-strategy-for-securing-digital-signage/) — Digital Signage Today Mon, 23 No
+- [El hotel Barceló Punta Umbría se convierte en un Royal Hideaway tras una inversión de 29 M€](https://www.hosteltur.com/180175_el-hotel-barcelo-punta-umbria-se-convierte-en-un-royal-hideaway-tras-una-inversion-de-29-meur.html) — Hosteltur LATAM Mon, 23 No
